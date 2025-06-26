@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 100%;
+  border-radius: 12px;
+  outline: 0;
+  border: 2px solid grey;
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-direction: row;
+  width: 100%;
+}

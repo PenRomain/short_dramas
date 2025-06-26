@@ -1,0 +1,308 @@
+{
+  "GlobalVariables": [
+    {
+      "Namespace": "Cutscenes",
+      "Description": "",
+      "Variables": []
+    },
+    {
+      "Namespace": "Music",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Silence",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_cabin",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_ship_rattle",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_tinnitus",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_beach_amb",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_jungle_amb",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_jungle_perc",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_jungle_perc_voc",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_bass_shaker",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_bass_perc_shaker",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Sound",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "amazons_bite",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_dart",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "amazons_scream",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Open",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Wardrobe",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ReOpenWardrobe",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Remember",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Rabbit",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "Vacuum",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Names",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "cname",
+          "Type": "String",
+          "Value": "...",
+          "Description": ""
+        },
+        {
+          "Variable": "Alexina",
+          "Type": "String",
+          "Value": "Powerful Amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Penelope",
+          "Type": "String",
+          "Value": "Inexperienced amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Demetria",
+          "Type": "String",
+          "Value": "Stealthy amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Gaspard",
+          "Type": "String",
+          "Value": "Gaspard",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Enter",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "_cname_",
+          "Type": "String",
+          "Value": "Grant",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Temp",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "focus",
+          "Type": "String",
+          "Value": "",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChClothes",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChHair",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChClothes_intim",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Relationships",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Penelope",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Gaspard",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Alexina",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Demetria",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Achievements",
+      "Description": "",
+      "Variables": []
+    },
+    {
+      "Namespace": "Way",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "SexMachine",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Bashful",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Wardrobe",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "mainCh_Clothes",
+          "Type": "Integer",
+          "Value": "11",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Inventory",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "RabbitVibrator",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "VacuumStimulator",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Paywall",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "OpenPaywall",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    }
+  ]
+}

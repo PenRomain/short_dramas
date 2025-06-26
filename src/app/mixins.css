@@ -1,0 +1,13 @@
+@define-mixin hover {
+  @media (hover: none) {
+    &:active {
+      @mixin-content;
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      @mixin-content;
+    }
+  }
+}

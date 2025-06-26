@@ -1,0 +1,19 @@
+.wrap {
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-direction: row;
+    cursor: pointer;
+    background: #efefef;
+    border: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    color: black;
+
+    &:hover {
+        background: #dcdcdc;
+    }
+}

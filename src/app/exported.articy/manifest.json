@@ -1,0 +1,67 @@
+{
+  "Settings": {
+    "set_UseScriptSupport": "True",
+    "set_TextFormatter": "",
+    "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets",
+    "set_IncludingAssets": "True",
+    "ExportVersion": "2.1",
+    "RuleSetId": "010000000000C52D",
+    "RuleSetName": "Default Export Ruleset (complete Project)"
+  },
+  "Project": {
+    "Name": "Амазонки острова Фило",
+    "DetailName": "",
+    "Guid": "e1cd3273-12a8-46e3-affa-6ee5543f4f83",
+    "TechnicalName": "Amazons_1"
+  },
+  "Languages": [
+    {
+      "CultureName": "",
+      "ArticyLanguageId": 127,
+      "LanguageName": "Invariant Language (Invariant Country)",
+      "IsVoiceOver": false
+    }
+  ],
+  "GlobalVariables": {
+    "FileName": "global_variables.json",
+    "Hash": "ETWQ4qfzjkuGGOu1IJ4bpLorXcccQFBx0mn4kjU+b0U="
+  },
+  "ObjectDefinitions": {
+    "Types": {
+      "FileName": "object_definitions.json",
+      "Hash": "cE462IsVPT+oH+WOg+D6zRLp4On5NoO0zBV4ClsRfXk="
+    },
+    "Texts": {
+      "FileName": "object_definitions_localization.json",
+      "Hash": "RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o="
+    }
+  },
+  "Packages": [
+    {
+      "Name": "All objects",
+      "Id": "0x010000000000C530",
+      "Description": "Exports all objects & types of the project",
+      "IsDefaultPackage": true,
+      "IsIncluded": true,
+      "ScriptFragmentHash": "zZh4+KpkHmjPIiYUpAAwTfdF7ZsgPI2csy0gViz6eFw=",
+      "Files": {
+        "Objects": {
+          "FileName": "package_010000000000C530_objects.json",
+          "Hash": "4yfXzUJ6UBw2Hr/vSOkha6GQrVaOntDc+8mpOxtyqW4="
+        },
+        "Texts": {
+          "FileName": "package_010000000000C530_localization.json",
+          "Hash": "oKXtAMkRdVTWihCJkvRoeriaJqWkrE2GOTc0dyjcZnA="
+        }
+      }
+    }
+  ],
+  "ScriptMethods": {
+    "FileName": "script_methods.json",
+    "Hash": "+Hc7CrqwO4HgaJLz4pXA58UKo/0PYZLVIzK1n03xTOY="
+  },
+  "Hierarchy": {
+    "FileName": "hierarchy.json",
+    "Hash": "Dz9/GvpSzw4qINO712XrFa0So0XlAGBkl5xhoTQkIZc="
+  }
+}

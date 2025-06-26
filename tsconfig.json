@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/shared/*": ["./src/app/4_shared/*"],
+      "@/entities/*": ["./src/app/entities/*"],
+      "@/widgets/*": ["./src/app/2_widgets/*"],
+      "@/features/*": ["./src/app/1_features/*"],
+    },
+    "types": ["node"],
+    "typeRoots": ["types", "./node_modules/@types"]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tools/assert-articy-class.cjs", "src/app/2_widgets/orientation-guard"],
+  "exclude": ["node_modules"]
+}

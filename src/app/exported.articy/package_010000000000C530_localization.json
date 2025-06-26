@@ -1,0 +1,974 @@
+{
+  "FFr_5808EEB3.DisplayName": {
+    "": {
+      "Text": "Episode 1. Shipwreck"
+    },
+    "Context": "Flow/Episode 1. Shipwreck"
+  },
+  "FFr_D3CDD9BA.DisplayName": {
+    "": {
+      "Text": "Episode 2. Amazons"
+    },
+    "Context": "Flow/Episode 2. Amazons"
+  },
+  "Dlg_F692132E.DisplayName": {
+    "": {
+      "Text": "Scene 1. Beach"
+    },
+    "Context": "Flow/Episode 1. Shipwreck/Scene 1. Beach"
+  },
+  "Dlg_6DD42AA1.DisplayName": {
+    "": {
+      "Text": "Scene 2. Forest"
+    },
+    "Context": "Flow/Episode 1. Shipwreck/Scene 2. Forest"
+  },
+  "Dlg_C1912A78.DisplayName": {
+    "": {
+      "Text": "Scene 1."
+    },
+    "Context": "Flow/Episode 2. Amazons/Scene 1."
+  },
+  "DFr_9EE35654.Text": {
+    "": {
+      "Text": "Welcome to the visual novelization of the Philo Island Amazons."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"Welcome to the visual novelization...\""
+  },
+  "DFr_5588FFF4.Text": {
+    "": {
+      "Text": "Before starting the game, choose the appearance and outfit of your hero."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"Before starting the game, choose th...\""
+  },
+  "DFr_EFBF06BC.Text": {
+    "": {
+      "Text": "The main character's name is Grant. Would you like to change your name?"
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"The main character's name is Grant....\""
+  },
+  "DFr_51D7DA9B.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Beach/Player: \"...\""
+  },
+  "DFr_2BE19322.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Beach/Player: \"...\""
+  },
+  "DFr_E79C8956.Text": {
+    "": {
+      "Text": "What happened to me?"
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"What happened to me?\""
+  },
+  "DFr_7264807E.Text": {
+    "": {
+      "Text": "The memories echoed rumblingly in his head."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"The memories echoed rumblingly in h...\""
+  },
+  "DFr_60E05B77.Text": {
+    "": {
+      "Text": "You're _cname_ Jones, owner of the largest chain of sex shops in America..."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"You're _cname_ Jones, owner of the...\""
+  },
+  "DFr_97308B5C.Text": {
+    "": {
+      "Text": "Robinson freakin' Crusoe!"
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"Robinson freakin' Crusoe!\""
+  },
+  "DFr_27837382.Text": {
+    "": {
+      "Text": "Personally transported goods by sea to open the first flagship boutique in Greece..."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"Personally transported goods by sea...\""
+  },
+  "DFr_AA3B55C2.Text": {
+    "": {
+      "Text": "Don't tell me they're uninhabited!"
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"Don't tell me they're uninhabited!\""
+  },
+  "DFr_05AABFB3.Text": {
+    "": {
+      "Text": "But you obviously didn't make it to Greece."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"But you obviously didn't make it to...\""
+  },
+  "DFr_332AC6F6.Text": {
+    "": {
+      "Text": "But it's going to be okay, right?"
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"But it's going to be okay, right?\""
+  },
+  "DFr_9BF1A769.Text": {
+    "": {
+      "Text": "A terrible shipwreck. Only you survived."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"A terrible shipwreck. Only you surv...\""
+  },
+  "DFr_BB6CB6BD.Text": {
+    "": {
+      "Text": "I'm on a desert island. No one knows what will happen to me. Only one thing I see clearly..."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"I'm on a desert island. No one know...\""
+  },
+  "DFr_D31F6303.Text": {
+    "": {
+      "Text": "\"Standing still is not the answer.\""
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"\"Standing still is not the answer.\"\""
+  },
+  "DFr_8FB854BE.Text": {
+    "": {
+      "Text": "That's right. Not the answer."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"That's right. Not the answer.\""
+  },
+  "DFr_63F77D56.Text": {
+    "": {
+      "Text": "You're faced with a choice."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"You're faced with a choice.\""
+  },
+  "DFr_AAA253CD.Text": {
+    "": {
+      "Text": "Some will change the course of history slightly, while others will completely overturn the plot."
+    },
+    "Context": "Flow/Scene 1. Beach/Information: \"Some will change the course of hist...\""
+  },
+  "DFr_153F2C90.Text": {
+    "": {
+      "Text": "Choose wisely!"
+    },
+    "Context": "Flow/Scene 1. Beach/Information: \"Choose wisely!\""
+  },
+  "DFr_B0AA3D6A.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"...\""
+  },
+  "DFr_1A91291B.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Beach/Player: \"...\""
+  },
+  "DFr_741059C0.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Beach/Player: \"...\""
+  },
+  "DFr_07805276.Text": {
+    "": {
+      "Text": "I need to explore the area."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"I need to explore the area.\""
+  },
+  "DFr_968031AE.Text": {
+    "": {
+      "Text": "But there could be wild animals here."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"But there could be wild animals her...\""
+  },
+  "DFr_09C44386.Text": {
+    "": {
+      "Text": "You looked around the shore and found nothing but rocks, which you stuffed in your pockets."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"You looked around the shore and fou...\""
+  },
+  "DFr_3DB76D30.Text": {
+    "": {
+      "Text": "Better than nothing."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"Better than nothing.\""
+  },
+  "DFr_95C0D5A9.Text": {
+    "": {
+      "Text": "Grant was able to prepare himself for danger!"
+    },
+    "Context": "Flow/Scene 1. Beach/Information: \"Grant was able to prepare himself f...\""
+  },
+  "DFr_904B0774.Text": {
+    "": {
+      "Text": "I need to explore the area."
+    },
+    "Context": "Flow/Scene 1. Beach/Protagonist: \"I need to explore the area.\""
+  },
+  "DFr_C5E6F0E6.Text": {
+    "": {
+      "Text": "Grant is going unprepared."
+    },
+    "Context": "Flow/Scene 1. Beach/Information: \"Grant is going unprepared.\""
+  },
+  "DFr_B48CA641.Text": {
+    "": {
+      "Text": "After gathering your courage, you went to explore the wild jungle."
+    },
+    "Context": "Flow/Scene 1. Beach/Author: \"After gathering your courage, you w...\""
+  },
+  "DFr_D4972A82.Text": {
+    "": {
+      "Text": "From deep within the jungle comes the intermittent singing of birds and the quiet buzzing of insects."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"From deep within the jungle comes t...\""
+  },
+  "DFr_1B780C8C.Text": {
+    "": {
+      "Text": "Not a single flower! It's like a harsh jungle."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"Not a single flower! It's like a ha...\""
+  },
+  "DFr_598FB547.Text": {
+    "": {
+      "Text": "The deeper you went, the more fear overwhelmed you."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"The deeper you went, the more fear...\""
+  },
+  "DFr_958D3BD9.Text": {
+    "": {
+      "Text": "The thrill..."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"The thrill...\""
+  },
+  "DFr_E64DB242.Text": {
+    "": {
+      "Text": "There are different paths waiting for you in the game."
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"There are different paths waiting f...\""
+  },
+  "DFr_5307FF9A.Text": {
+    "": {
+      "Text": "Along the sex machine route, _cname_ will be sexually active and sometimes obsessive."
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Along the sex machine route, _cname...\""
+  },
+  "DFr_68644EE1.Text": {
+    "": {
+      "Text": "Along the way bashful _cname_ will be so charming that the girls themselves will want to give him signs of attention."
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Along the way bashful _cname_ will...\""
+  },
+  "DFr_A3388C2E.Text": {
+    "": {
+      "Text": "The sense of danger made you feel..."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"The sense of danger made you feel.....\""
+  },
+  "DFr_C097CEBF.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 2. Forest/Player: \"...\""
+  },
+  "DFr_059EB217.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 2. Forest/Player: \"...\""
+  },
+  "DFr_E0C8045B.Text": {
+    "": {
+      "Text": "You were excited about what was happening."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"You were excited about what was hap...\""
+  },
+  "DFr_2FB8F762.Text": {
+    "": {
+      "Text": "Sex Machine +1!"
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Sex Machine +1!\""
+  },
+  "DFr_F3AC1B3E.Text": {
+    "": {
+      "Text": "Oh yeah! So dangerous, I got a hard-on!"
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"Oh yeah! So dangerous, I got a hard...\""
+  },
+  "DFr_B08948F1.Text": {
+    "": {
+      "Text": "You wanted to be away from the dangerous jungle."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"You wanted to be away from the dang...\""
+  },
+  "DFr_0B8FB9C6.Text": {
+    "": {
+      "Text": "Bashful +1!"
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Bashful +1!\""
+  },
+  "DFr_C6B2534A.Text": {
+    "": {
+      "Text": "It's such a nightmare."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"It's such a nightmare.\""
+  },
+  "DFr_A88D2CAC.Text": {
+    "": {
+      "Text": "I want it to end, I want to wake up on someone's warm chest."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"I want it to end, I want to wake up...\""
+  },
+  "DFr_7FF4E10D.Text": {
+    "": {
+      "Text": "Your attention is drawn to a bush with juicy red berries lurking under a tree. You quicken your step, approaching the find."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"Your attention is drawn to a bush w...\""
+  },
+  "DFr_F27CDC36.Text": {
+    "": {
+      "Text": "Finally! Something."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"Finally! Something.\""
+  },
+  "DFr_079C9F67.Text": {
+    "": {
+      "Text": "You reach out to pick the berries, but freeze when you hear a strange whistling sound."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"You reach out to pick the berries,...\""
+  },
+  "DFr_752C30E4.Text": {
+    "": {
+      "Text": "It's definitely not an animal."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"It's definitely not an animal.\""
+  },
+  "DFr_6A16F39C.Text": {
+    "": {
+      "Text": "We have to defend ourselves!"
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"We have to defend ourselves!\""
+  },
+  "DFr_C713AD62.Text": {
+    "": {
+      "Text": "You pulled a rock out of your pocket and tossed it in the direction of the sound."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"You pulled a rock out of your pocke...\""
+  },
+  "DFr_B8C46050.Text": {
+    "": {
+      "Text": "From behind the bushes appeared a beautiful... warrior?"
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"From behind the bushes appeared a b...\""
+  },
+  "DFr_EDA9063E.Text": {
+    "": {
+      "Text": "He's a terrible creep. But not stupid. Interesting already."
+    },
+    "Context": "Flow/Scene 2. Forest/Alexina: \"He's a terrible creep. But not stup...\""
+  },
+  "DFr_881EFD07.Text": {
+    "": {
+      "Text": "Grant made a decent first impression."
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Grant made a decent first impressio...\""
+  },
+  "DFr_604E663D.Text": {
+    "": {
+      "Text": "She smiled, crossing her arms over her chest."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"She smiled, crossing her arms over...\""
+  },
+  "DFr_A6D88E0B.Text": {
+    "": {
+      "Text": "I can't tear myself away from her. She's so... so..."
+    },
+    "Context": "Flow/Scene 2. Forest/Protagonist: \"I can't tear myself away from her....\""
+  },
+  "DFr_22FD39A5.Text": {
+    "": {
+      "Text": "Huntress. Shoot."
+    },
+    "Context": "Flow/Scene 2. Forest/Alexina: \"Huntress. Shoot.\""
+  },
+  "DFr_1344364D.Text": {
+    "": {
+      "Text": "There's a tiny needle sticking into your neck."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"There's a tiny needle sticking into...\""
+  },
+  "DFr_87F59AFD.Text": {
+    "": {
+      "Text": "My eyes are getting dark."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"My eyes are getting dark.\""
+  },
+  "DFr_526B057B.Text": {
+    "": {
+      "Text": "The last thing you see is the large breasts of a powerful Amazon looming over your face."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"The last thing you see is the large...\""
+  },
+  "DFr_BFCCD80E.Text": {
+    "": {
+      "Text": "You didn't know what to do, so you started to slowly retreat towards the beach."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"You didn't know what to do, so you...\""
+  },
+  "DFr_F8F60C3C.Text": {
+    "": {
+      "Text": "Coward."
+    },
+    "Context": "Flow/Scene 2. Forest/Alexina: \"Coward.\""
+  },
+  "DFr_C5131467.Text": {
+    "": {
+      "Text": "A cold female voice made you freeze in place."
+    },
+    "Context": "Flow/Scene 2. Forest/Author: \"A cold female voice made you freeze...\""
+  },
+  "DFr_EF2A3EA8.Text": {
+    "": {
+      "Text": "Grant failed to make a decent first impression."
+    },
+    "Context": "Flow/Scene 2. Forest/Information: \"Grant failed to make a decent first...\""
+  },
+  "DFr_8F1E6EF8.Text": {
+    "": {
+      "Text": "You slowly open your eyes."
+    },
+    "Context": "Flow/Scene 1./Author: \"You slowly open your eyes.\""
+  },
+  "DFr_BA7A1140.Text": {
+    "": {
+      "Text": "Where... I..."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Where... I...\""
+  },
+  "DFr_ED6DE83F.Text": {
+    "": {
+      "Text": "In answer to your question, you heard a heartbreaking girlish squeal."
+    },
+    "Context": "Flow/Scene 1./Author: \"In answer to your question, you hea...\""
+  },
+  "DFr_ED134C47.Text": {
+    "": {
+      "Text": "He's talking!"
+    },
+    "Context": "Flow/Scene 1./Penelope: \"He's talking!\""
+  },
+  "DFr_D063ED0C.Text": {
+    "": {
+      "Text": "You're so stupid."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"You're so stupid.\""
+  },
+  "DFr_9835917D.Text": {
+    "": {
+      "Text": "Usually our prey is silent!"
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Usually our prey is silent!\""
+  },
+  "DFr_22B32649.Text": {
+    "": {
+      "Text": "Because he's dying of poison, Penelope."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"Because he's dying of poison, Penel...\""
+  },
+  "DFr_CB007D28.Text": {
+    "": {
+      "Text": "The threat made the mind immediately clear."
+    },
+    "Context": "Flow/Scene 1./Author: \"The threat made the mind immediatel...\""
+  },
+  "DFr_B57783ED.Text": {
+    "": {
+      "Text": "Why isn't this one dead?"
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Why isn't this one dead?\""
+  },
+  "DFr_541A4C4E.Text": {
+    "": {
+      "Text": "The powerful Amazon saw that you had already opened your eyes and turned to you:"
+    },
+    "Context": "Flow/Scene 1./Author: \"The powerful Amazon saw that you ha...\""
+  },
+  "DFr_6237AE69.Text": {
+    "": {
+      "Text": "Since you didn't die from the poison, maybe the gods are saving you for something else."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"Since you didn't die from the poiso...\""
+  },
+  "DFr_9D40EDDE.Text": {
+    "": {
+      "Text": "In any case, your fate is decided by our commander-in-chief Hippolyta."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"In any case, your fate is decided b...\""
+  },
+  "DFr_DBF02933.Text": {
+    "": {
+      "Text": "I thought you were the commander in chief."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"I thought you were the commander in...\""
+  },
+  "DFr_76D3B895.Text": {
+    "": {
+      "Text": "No, I am her Hand. My name is Alexina."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"No, I am her Hand. My name is Alexi...\""
+  },
+  "DFr_D40C3EAC.Text": {
+    "": {
+      "Text": "Nice of you to introduce yourself."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Nice of you to introduce yourself.\""
+  },
+  "DFr_E8AFB9C6.Text": {
+    "": {
+      "Text": "You must know the name of the woman who will take your head off."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"You must know the name of the woman...\""
+  },
+  "DFr_7E3BC2CD.Text": {
+    "": {
+      "Text": "Welcome to Filo island. Island of Amazons."
+    },
+    "Context": "Flow/Scene 1./Alexina: \"Welcome to Filo island. Island of A...\""
+  },
+  "DFr_D2BC3EFE.Text": {
+    "": {
+      "Text": "With those words, Alexina left the room, leaving you with her musings and... Penelope."
+    },
+    "Context": "Flow/Scene 1./Author: \"With those words, Alexina left the...\""
+  },
+  "DFr_1945913B.Text": {
+    "": {
+      "Text": "You're a prisoner. I'll keep an eye on you."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"You're a prisoner. I'll keep an eye...\""
+  },
+  "DFr_CF40D6EF.Text": {
+    "": {
+      "Text": "You notice you're not wearing shackles or even handcuffs."
+    },
+    "Context": "Flow/Scene 1./Author: \"You notice you're not wearing shack...\""
+  },
+  "DFr_8EBC84A5.Text": {
+    "": {
+      "Text": "Though there was an abundance of this goodness on the walls of the room..."
+    },
+    "Context": "Flow/Scene 1./Author: \"Though there was an abundance of th...\""
+  },
+  "DFr_66AD4764.Text": {
+    "": {
+      "Text": "Better keep an eye on you, fawn..."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Better keep an eye on you, fawn...\""
+  },
+  "DFr_11256583.Text": {
+    "": {
+      "Text": "Penelope sat on the chair next to your rookery."
+    },
+    "Context": "Flow/Scene 1./Author: \"Penelope sat on the chair next to y...\""
+  },
+  "DFr_39AB2FDF.Text": {
+    "": {
+      "Text": "I will scrutinize your every move."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"I will scrutinize your every move.\""
+  },
+  "DFr_C639D887.Text": {
+    "": {
+      "Text": "And I'm after your... graceful, graceful movements."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"And I'm after your... graceful, gra...\""
+  },
+  "DFr_CF1FFE41.Text": {
+    "": {
+      "Text": "You thought that now - before you were killed, there was a great chance to have some fun with a beautiful, if not - exotic, girl."
+    },
+    "Context": "Flow/Scene 1./Author: \"You thought that now - before you w...\""
+  },
+  "DFr_3B63B27E.Text": {
+    "": {
+      "Text": "You have a great chance to use a prisoner. Like a sex doll. Have you thought about that?"
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"You have a great chance to use a pr...\""
+  },
+  "DFr_15219048.Text": {
+    "": {
+      "Text": "You noticed her start to reach for her crotch and touch her breasts with the other."
+    },
+    "Context": "Flow/Scene 1./Author: \"You noticed her start to reach for...\""
+  },
+  "DFr_473FE9ED.Text": {
+    "": {
+      "Text": "I don't know..."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"I don't know...\""
+  },
+  "DFr_27C29F24.Text": {
+    "": {
+      "Text": "The choice will affect the relationship with Penelope."
+    },
+    "Context": "Flow/Scene 1./Information: \"The choice will affect the relation...\""
+  },
+  "DFr_91A4E053.Text": {
+    "": {
+      "Text": "Why don't we just lure her in for a kiss first?"
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Why don't we just lure her in for a...\""
+  },
+  "DFr_200FFE86.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1./Player: \"...\""
+  },
+  "DFr_C044BE5F.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1./Player: \"...\""
+  },
+  "DFr_02810A70.Text": {
+    "": {
+      "Text": "You carefully got up from your rookery."
+    },
+    "Context": "Flow/Scene 1./Author: \"You carefully got up from your rook...\""
+  },
+  "DFr_C9907A02.Text": {
+    "": {
+      "Text": "I didn't want to scare the fawn Penelope."
+    },
+    "Context": "Flow/Scene 1./Author: \"I didn't want to scare the fawn Pen...\""
+  },
+  "DFr_FC62EDF7.Text": {
+    "": {
+      "Text": "There's a good chance she'd give you a kick in the liver for that."
+    },
+    "Context": "Flow/Scene 1./Author: \"There's a good chance she'd give yo...\""
+  },
+  "DFr_7C0028DF.Text": {
+    "": {
+      "Text": "Penelope closed her eyes and stretched forward slightly."
+    },
+    "Context": "Flow/Scene 1./Author: \"Penelope closed her eyes and stretc...\""
+  },
+  "DFr_F715F1E7.Text": {
+    "": {
+      "Text": "Yeah, little virgin, _cname_`s about to show you what it's like to be wet."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Yeah, little virgin, _cname_`s abou...\""
+  },
+  "DFr_A3B3EFFF.Text": {
+    "": {
+      "Text": "_cname_ is a sex machine, your kiss will be passionate."
+    },
+    "Context": "Flow/Scene 1./Information: \"_cname_ is a sex machine, your kiss...\""
+  },
+  "DFr_3AE049DB.Text": {
+    "": {
+      "Text": "You put your hands on the chair close to her hips."
+    },
+    "Context": "Flow/Scene 1./Author: \"You put your hands on the chair clo...\""
+  },
+  "DFr_492273FB.Text": {
+    "": {
+      "Text": "Open your mouth, girl."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Open your mouth, girl.\""
+  },
+  "DFr_63F023E4.Text": {
+    "": {
+      "Text": "She nodded lightly and opened her lips."
+    },
+    "Context": "Flow/Scene 1./Author: \"She nodded lightly and opened her l...\""
+  },
+  "DFr_141DF107.Text": {
+    "": {
+      "Text": "You began to slowly run your tongue over them to tease Penelope."
+    },
+    "Context": "Flow/Scene 1./Author: \"You began to slowly run your tongue...\""
+  },
+  "DFr_F0C2E080.Text": {
+    "": {
+      "Text": "Ah..."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+  },
+  "DFr_E9DB0C00.Text": {
+    "": {
+      "Text": "Your fingers touched her thighs very lightly, and you felt them burn with fire."
+    },
+    "Context": "Flow/Scene 1./Author: \"Your fingers touched her thighs ver...\""
+  },
+  "DFr_A0C2957F.Text": {
+    "": {
+      "Text": "Imagine how hot you'd be if you touched my rock-hard cock."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Imagine how hot you'd be if you tou...\""
+  },
+  "DFr_95D988C0.Text": {
+    "": {
+      "Text": "Ah..."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+  },
+  "DFr_7E836E21.Text": {
+    "": {
+      "Text": "A noticeable blush appeared on her cheeks. She was shy, but she liked what you were saying and doing."
+    },
+    "Context": "Flow/Scene 1./Author: \"A noticeable blush appeared on her...\""
+  },
+  "DFr_4D21DDF4.Text": {
+    "": {
+      "Text": "Opposite you are the sexy wet lips of an inexperienced fawn."
+    },
+    "Context": "Flow/Scene 1./Author: \"Opposite you are the sexy wet lips...\""
+  },
+  "DFr_65C82A9E.Text": {
+    "": {
+      "Text": "You thrust into them with all the passion to show the little girl how good it feels when you're around."
+    },
+    "Context": "Flow/Scene 1./Author: \"You thrust into them with all the p...\""
+  },
+  "DFr_B3BF886E.Text": {
+    "": {
+      "Text": "Penelope wanted to say something else, but you didn't give her the chance, covering her lips with yours again."
+    },
+    "Context": "Flow/Scene 1./Author: \"Penelope wanted to say something el...\""
+  },
+  "DFr_AE300E00.Text": {
+    "": {
+      "Text": "For several long moments, you didn't pull away from each other, but when you had to catch your breath, Penelope made several attempts to free herself."
+    },
+    "Context": "Flow/Scene 1./Author: \"For several long moments, you didn'...\""
+  },
+  "DFr_47FBE2EB.Text": {
+    "": {
+      "Text": "Unsuccessful, though."
+    },
+    "Context": "Flow/Scene 1./Author: \"Unsuccessful, though.\""
+  },
+  "DFr_9DB10FB6.Text": {
+    "": {
+      "Text": "_cname_ is a bashful man, your kiss will be tender."
+    },
+    "Context": "Flow/Scene 1./Information: \"_cname_ is a bashful man, your kiss...\""
+  },
+  "DFr_F80143EE.Text": {
+    "": {
+      "Text": "Is that really what you want?"
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Is that really what you want?\""
+  },
+  "DFr_3BACC867.Text": {
+    "": {
+      "Text": "Penelope nodded."
+    },
+    "Context": "Flow/Scene 1./Author: \"Penelope nodded.\""
+  },
+  "DFr_BB97E791.Text": {
+    "": {
+      "Text": "You rose from the rookery, walked almost right up to Penelope and leaned over and whispered in her ear:"
+    },
+    "Context": "Flow/Scene 1./Author: \"You rose from the rookery, walked a...\""
+  },
+  "DFr_FD2F8A18.Text": {
+    "": {
+      "Text": "Alexina can't find out about this. Right, my girl?"
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Alexina can't find out about this....\""
+  },
+  "DFr_F79A0A89.Text": {
+    "": {
+      "Text": "The girl put her hands on Grant's shoulders and nodded to him."
+    },
+    "Context": "Flow/Scene 1./Author: \"The girl put her hands on Grant's s...\""
+  },
+  "DFr_D810D7B7.Text": {
+    "": {
+      "Text": "You could feel the heat from her breasts."
+    },
+    "Context": "Flow/Scene 1./Author: \"You could feel the heat from her br...\""
+  },
+  "DFr_23B7648E.Text": {
+    "": {
+      "Text": "You slowly drove your lips over hers with yours, teasing her a little."
+    },
+    "Context": "Flow/Scene 1./Author: \"You slowly drove your lips over her...\""
+  },
+  "DFr_3C71450C.Text": {
+    "": {
+      "Text": "She began to moan."
+    },
+    "Context": "Flow/Scene 1./Author: \"She began to moan.\""
+  },
+  "DFr_3F90804C.Text": {
+    "": {
+      "Text": "Ah... Kiss me."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Ah... Kiss me.\""
+  },
+  "DFr_6146A3A6.Text": {
+    "": {
+      "Text": "You took your time. The first rule of good sex is a hot kiss."
+    },
+    "Context": "Flow/Scene 1./Author: \"You took your time. The first rule...\""
+  },
+  "DFr_8A936EF1.Text": {
+    "": {
+      "Text": "The first rule of a good kiss is a very hot girl."
+    },
+    "Context": "Flow/Scene 1./Author: \"The first rule of a good kiss is a...\""
+  },
+  "DFr_6C66DA23.Text": {
+    "": {
+      "Text": "But Penelope didn't hold back."
+    },
+    "Context": "Flow/Scene 1./Author: \"But Penelope didn't hold back.\""
+  },
+  "DFr_7E3F8997.Text": {
+    "": {
+      "Text": "The girl stretched out to touch her lips to yours."
+    },
+    "Context": "Flow/Scene 1./Author: \"The girl stretched out to touch her...\""
+  },
+  "DFr_B4051763.Text": {
+    "": {
+      "Text": "She didn't know how to kiss, of course. But she tried to swallow your tongue with all the passion she could muster."
+    },
+    "Context": "Flow/Scene 1./Author: \"She didn't know how to kiss, of cou...\""
+  },
+  "DFr_2E545A42.Text": {
+    "": {
+      "Text": "You decide to take the initiative by showing the little fawn how to work his tongue properly."
+    },
+    "Context": "Flow/Scene 1./Author: \"You decide to take the initiative b...\""
+  },
+  "DFr_D53B590A.Text": {
+    "": {
+      "Text": "She relaxed and gave herself to the process."
+    },
+    "Context": "Flow/Scene 1./Author: \"She relaxed and gave herself to the...\""
+  },
+  "DFr_7809429D.Text": {
+    "": {
+      "Text": "Ah..."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+  },
+  "DFr_D95F3AD2.Text": {
+    "": {
+      "Text": "Suddenly she pulled away from your lips, startled by her passionate nature."
+    },
+    "Context": "Flow/Scene 1./Author: \"Suddenly she pulled away from your...\""
+  },
+  "DFr_CA843F8A.Text": {
+    "": {
+      "Text": "She whispered:"
+    },
+    "Context": "Flow/Scene 1./Author: \"She whispered:\""
+  },
+  "DFr_CD65C04B.Text": {
+    "": {
+      "Text": "I'm on fire."
+    },
+    "Context": "Flow/Scene 1./Penelope: \"I'm on fire.\""
+  },
+  "DFr_0F57EDDA.Text": {
+    "": {
+      "Text": "Why don't you and I have a different kind of fun?"
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Why don't you and I have a differen...\""
+  },
+  "DFr_22481F5A.Text": {
+    "": {
+      "Text": "How, exactly?"
+    },
+    "Context": "Flow/Scene 1./Penelope: \"How, exactly?\""
+  },
+  "DFr_CE654384.Text": {
+    "": {
+      "Text": "Like a grown-up. I'll show you what pleasure is."
+    },
+    "Context": "Flow/Scene 1./Protagonist: \"Like a grown-up. I'll show you what...\""
+  },
+  "DFr_1CCFF9A5.Text": {
+    "": {
+      "Text": "Are you sure you're feeling okay?"
+    },
+    "Context": "Flow/Scene 1./Penelope: \"Are you sure you're feeling okay?\""
+  },
+  "Ntt_86B32069.DisplayName": {
+    "": {
+      "Text": "Penelope"
+    },
+    "Context": "Entities/Любовные линии/Penelope"
+  },
+  "Ntt_2143E223.DisplayName": {
+    "": {
+      "Text": "Demetria"
+    },
+    "Context": "Entities/Любовные линии/Demetria"
+  },
+  "Ntt_F574F603.DisplayName": {
+    "": {
+      "Text": "Alexina"
+    },
+    "Context": "Entities/Любовные линии/Alexina"
+  },
+  "Ntt_345D7F79.DisplayName": {
+    "": {
+      "Text": "Gaspard"
+    },
+    "Context": "Entities/Любовные линии/Gaspard"
+  },
+  "Ntt_81111BE4.DisplayName": {
+    "": {
+      "Text": "Author"
+    },
+    "Context": "Entities/Main/Author"
+  },
+  "Ntt_9A413F88.DisplayName": {
+    "": {
+      "Text": "Choice of way"
+    },
+    "Context": "Entities/Main/Choice of way"
+  },
+  "Ntt_E8872DD5.DisplayName": {
+    "": {
+      "Text": "Protagonist"
+    },
+    "Context": "Entities/Main/Protagonist"
+  },
+  "Ntt_475619CA.DisplayName": {
+    "": {
+      "Text": "Information"
+    },
+    "Context": "Entities/Main/Information"
+  },
+  "Ntt_9DE5F591.DisplayName": {
+    "": {
+      "Text": "Episode"
+    },
+    "Context": "Entities/Main/Episode"
+  },
+  "Ntt_0DCF2CB7.DisplayName": {
+    "": {
+      "Text": "Receiving Inventory"
+    },
+    "Context": "Entities/Main/Receiving Inventory"
+  },
+  "Ntt_44BA9EC4.DisplayName": {
+    "": {
+      "Text": "Player"
+    },
+    "Context": "Entities/Main/Player"
+  },
+  "Ntt_FFEAB50E.DisplayName": {
+    "": {
+      "Text": "Use Inventory"
+    },
+    "Context": "Entities/Main/Use Inventory"
+  }
+}
