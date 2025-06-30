@@ -6,6 +6,7 @@ import StoreProvider from "./4_shared/store/store-provider";
 import cx from "clsx";
 import { OrientationGuard } from "./2_widgets/orientation-guard";
 import { Prefetch } from "./2_widgets/prefetch";
+import { InitUser } from "./3_entities/user/init-user";
 
 // const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
 
@@ -38,11 +39,13 @@ export default async function RootLayout({
       />
       {/* <HeadLinks /> */}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
-        <OrientationGuard>
-          <StoreProvider>
-            <Prefetch>{children}</Prefetch>
-          </StoreProvider>
-        </OrientationGuard>
+        <InitUser>
+          <OrientationGuard>
+            <StoreProvider>
+              <Prefetch>{children}</Prefetch>
+            </StoreProvider>
+          </OrientationGuard>
+        </InitUser>
       </body>
     </html>
   );

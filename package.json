@@ -1,5 +1,5 @@
 {
-  "name": "dj_girl",
+  "name": "short_dramas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,6 +23,7 @@
     "keen-slider": "^6.8.6",
     "next": "15.3.1",
     "react": "^19.0.0",
+    "react-cookie": "^8.0.1",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
     "zod": "^3.24.3"

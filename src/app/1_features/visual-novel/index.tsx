@@ -23,7 +23,7 @@ import { useNodeTextWithName } from "@/shared/hooks/use-node-text-with-name";
 import { useMusic } from "@/shared/hooks/use-music";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
-import { SwipeyPayService } from "@/shared/swipey/swipey-pay.service";
+import { CloudflareAnalyticsService } from "../../3_entities/cloudflare/cloudflare-analytics";
 import { useSound } from "@/shared/hooks/use-sound";
 
 const PRICE = 120;
@@ -38,7 +38,7 @@ const PremiumButton = memo(function PremiumButton({
 }: PremiumButtonProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const { pay } = useMemo(() => new SwipeyPayService(), []);
+  const { payClick } = useMemo(() => new CloudflareAnalyticsService(), []);
 
   const handleClick = async (e: MouseEvent) => {
     e.preventDefault();
@@ -46,10 +46,7 @@ const PremiumButton = memo(function PremiumButton({
     setLoading(true);
 
     try {
-      const result = await pay(PRICE);
-      if (result.status === "deposit") {
-        window.open(result.depositUrl, "_blank", "noopener,noreferrer");
-      }
+      const result = await payClick();
       if (result.status === "success") {
         onSuccess();
       }

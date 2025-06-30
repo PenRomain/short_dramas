@@ -20,7 +20,7 @@ import Button from "@/shared/uikit/button";
 import Arrow from "@/shared/uikit/arrow";
 import { AnimatePresence, motion } from "framer-motion";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
-import { SwipeyPayService } from "@/shared/swipey/swipey-pay.service";
+import { CloudflareAnalyticsService } from "../../3_entities/cloudflare/cloudflare-analytics";
 import cx from "clsx";
 
 const PRICE = 120;
@@ -58,7 +58,7 @@ export default memo(function Wardrobe() {
   const [idx, setIdx] = useState(0);
   const node = db.getObject(state.id, DialogueFragment);
   const mainCh_Race = state.variables.Wardrobe.mainCh_Race;
-  const { pay } = useMemo(() => new SwipeyPayService(), []);
+  const { payClick } = useMemo(() => new CloudflareAnalyticsService(), []);
   const [loading, setLoading] = useState(false);
 
   const confirm = useCallback(() => {
@@ -82,10 +82,7 @@ export default memo(function Wardrobe() {
     setLoading(true);
 
     try {
-      const result = await pay(PRICE);
-      if (result.status === "deposit") {
-        window.open(result.depositUrl, "_blank", "noopener,noreferrer");
-      }
+      const result = await payClick();
       if (result.status === "success") {
         confirm();
       }
@@ -98,7 +95,7 @@ export default memo(function Wardrobe() {
     } finally {
       setLoading(false);
     }
-  }, [confirm, loading, pay]);
+  }, [confirm, loading, payClick]);
 
   const looks = state.branches
     .map((br) => parseBranch(br, mainCh_Race))

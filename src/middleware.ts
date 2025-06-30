@@ -1,37 +1,22 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { v4 as uuidv4 } from "uuid";
 
 export function middleware(request: NextRequest) {
-  const url = request.nextUrl.clone();
-  const userId = url.searchParams.get("user_id");
-  const charId = url.searchParams.get("character_id");
+  const response = NextResponse.next();
+  const cookieUserId = request.cookies.get("analytics_user_id")?.value;
 
-  if (userId || charId) {
-    const response = NextResponse.next();
-
-    if (userId) {
-      response.cookies.set({
-        name: "user_id",
-        value: userId,
-        httpOnly: true,
-        path: "/",
-        maxAge: 60 * 60 * 24 * 30,
-      });
-    }
-    if (charId) {
-      response.cookies.set({
-        name: "character_id",
-        value: charId,
-        httpOnly: true,
-        path: "/",
-        maxAge: 60 * 60 * 24 * 30,
-      });
-    }
-
-    return response;
+  if (!cookieUserId) {
+    const newId = uuidv4();
+    response.cookies.set({
+      name: "analytics_user_id",
+      value: newId,
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365,
+    });
   }
 
-  return NextResponse.next();
+  return response;
 }
 
 export const config = {
