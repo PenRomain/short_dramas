@@ -1,11 +1,5 @@
 import type { NextConfig } from "next";
 
-const CDN = process.env.NEXT_PUBLIC_DEV_R2_ENDPOINT;
-
-if (!CDN) {
-  throw new Error("NEXT_PUBLIC_R2_ENDPOINT is not defined");
-}
-
 const nextConfig: NextConfig = {
   crossOrigin: "anonymous",
   poweredByHeader: false,
@@ -19,14 +13,6 @@ const nextConfig: NextConfig = {
       moduleTrace: true,
     };
     return config;
-  },
-  async rewrites() {
-    return [
-      {
-        source: "/ivhid_src/:file*",
-        destination: `${CDN}/ivhid_src/:file*`,
-      },
-    ];
   },
   async headers() {
     return [
@@ -83,14 +69,8 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "dj-girl.vercel.app",
+        hostname: "short-dramas.vercel.app",
         pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: new URL(CDN).hostname,
-        port: "",
-        pathname: "/ivhid_src/**",
       },
       // new URL("https://drive.google.com/**"),
       new URL("https://www.googleapis.com/**"),
