@@ -15,7 +15,7 @@ import {
 import styles from "./background.module.css";
 import {
   AnimatePresence,
-  AnimationControls,
+  LegacyAnimationControls as AnimationControls,
   motion,
   useAnimation,
 } from "framer-motion";

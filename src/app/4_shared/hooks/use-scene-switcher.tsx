@@ -1,5 +1,5 @@
 import { useAnimation } from "framer-motion";
-import { type AnimationControls } from "framer-motion";
+import { type LegacyAnimationControls as AnimationControls } from "framer-motion";
 import { useGameContext } from "../context/game-context";
 
 const DURATION = 2;
