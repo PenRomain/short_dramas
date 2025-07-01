@@ -724,13 +724,9 @@
                 "Property": "actor",
                 "Type": "ReferenceStrip",
                 "MaxReferenceCount": "1",
-                "AllowedModelTypes": [
-                  "Entity"
-                ],
+                "AllowedModelTypes": ["Entity"],
                 "PlaceholderValue": "",
-                "AllowedAssetCategories": [
-                  "None"
-                ],
+                "AllowedAssetCategories": ["None"],
                 "AllowedModelTemplates": []
               }
             ]

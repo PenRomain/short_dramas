@@ -25,9 +25,9 @@
   },
   "Dlg_C1912A78.DisplayName": {
     "": {
-      "Text": "Scene 1."
+      "Text": "Scene 1. Prisoner`s room (mess)"
     },
-    "Context": "Flow/Episode 2. Amazons/Scene 1."
+    "Context": "Flow/Episode 2. Amazons/Scene 1. Prisoner`s room (mess)"
   },
   "DFr_9EE35654.Text": {
     "": {
@@ -435,469 +435,469 @@
     "": {
       "Text": "You slowly open your eyes."
     },
-    "Context": "Flow/Scene 1./Author: \"You slowly open your eyes.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You slowly open your eyes.\""
   },
   "DFr_BA7A1140.Text": {
     "": {
       "Text": "Where... I..."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Where... I...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Where... I...\""
   },
   "DFr_ED6DE83F.Text": {
     "": {
       "Text": "In answer to your question, you heard a heartbreaking girlish squeal."
     },
-    "Context": "Flow/Scene 1./Author: \"In answer to your question, you hea...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"In answer to your question, you hea...\""
   },
   "DFr_ED134C47.Text": {
     "": {
       "Text": "He's talking!"
     },
-    "Context": "Flow/Scene 1./Penelope: \"He's talking!\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"He's talking!\""
   },
   "DFr_D063ED0C.Text": {
     "": {
       "Text": "You're so stupid."
     },
-    "Context": "Flow/Scene 1./Alexina: \"You're so stupid.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"You're so stupid.\""
   },
   "DFr_9835917D.Text": {
     "": {
       "Text": "Usually our prey is silent!"
     },
-    "Context": "Flow/Scene 1./Penelope: \"Usually our prey is silent!\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Usually our prey is silent!\""
   },
   "DFr_22B32649.Text": {
     "": {
       "Text": "Because he's dying of poison, Penelope."
     },
-    "Context": "Flow/Scene 1./Alexina: \"Because he's dying of poison, Penel...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"Because he's dying of poison, Penel...\""
   },
   "DFr_CB007D28.Text": {
     "": {
       "Text": "The threat made the mind immediately clear."
     },
-    "Context": "Flow/Scene 1./Author: \"The threat made the mind immediatel...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"The threat made the mind immediatel...\""
   },
   "DFr_B57783ED.Text": {
     "": {
       "Text": "Why isn't this one dead?"
     },
-    "Context": "Flow/Scene 1./Penelope: \"Why isn't this one dead?\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Why isn't this one dead?\""
   },
   "DFr_541A4C4E.Text": {
     "": {
       "Text": "The powerful Amazon saw that you had already opened your eyes and turned to you:"
     },
-    "Context": "Flow/Scene 1./Author: \"The powerful Amazon saw that you ha...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"The powerful Amazon saw that you ha...\""
   },
   "DFr_6237AE69.Text": {
     "": {
       "Text": "Since you didn't die from the poison, maybe the gods are saving you for something else."
     },
-    "Context": "Flow/Scene 1./Alexina: \"Since you didn't die from the poiso...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"Since you didn't die from the poiso...\""
   },
   "DFr_9D40EDDE.Text": {
     "": {
       "Text": "In any case, your fate is decided by our commander-in-chief Hippolyta."
     },
-    "Context": "Flow/Scene 1./Alexina: \"In any case, your fate is decided b...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"In any case, your fate is decided b...\""
   },
   "DFr_DBF02933.Text": {
     "": {
       "Text": "I thought you were the commander in chief."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"I thought you were the commander in...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"I thought you were the commander in...\""
   },
   "DFr_76D3B895.Text": {
     "": {
       "Text": "No, I am her Hand. My name is Alexina."
     },
-    "Context": "Flow/Scene 1./Alexina: \"No, I am her Hand. My name is Alexi...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"No, I am her Hand. My name is Alexi...\""
   },
   "DFr_D40C3EAC.Text": {
     "": {
       "Text": "Nice of you to introduce yourself."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Nice of you to introduce yourself.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Nice of you to introduce yourself.\""
   },
   "DFr_E8AFB9C6.Text": {
     "": {
       "Text": "You must know the name of the woman who will take your head off."
     },
-    "Context": "Flow/Scene 1./Alexina: \"You must know the name of the woman...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"You must know the name of the woman...\""
   },
   "DFr_7E3BC2CD.Text": {
     "": {
       "Text": "Welcome to Filo island. Island of Amazons."
     },
-    "Context": "Flow/Scene 1./Alexina: \"Welcome to Filo island. Island of A...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Alexina: \"Welcome to Filo island. Island of A...\""
   },
   "DFr_D2BC3EFE.Text": {
     "": {
       "Text": "With those words, Alexina left the room, leaving you with her musings and... Penelope."
     },
-    "Context": "Flow/Scene 1./Author: \"With those words, Alexina left the...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"With those words, Alexina left the...\""
   },
   "DFr_1945913B.Text": {
     "": {
       "Text": "You're a prisoner. I'll keep an eye on you."
     },
-    "Context": "Flow/Scene 1./Penelope: \"You're a prisoner. I'll keep an eye...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"You're a prisoner. I'll keep an eye...\""
   },
   "DFr_CF40D6EF.Text": {
     "": {
       "Text": "You notice you're not wearing shackles or even handcuffs."
     },
-    "Context": "Flow/Scene 1./Author: \"You notice you're not wearing shack...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You notice you're not wearing shack...\""
   },
   "DFr_8EBC84A5.Text": {
     "": {
       "Text": "Though there was an abundance of this goodness on the walls of the room..."
     },
-    "Context": "Flow/Scene 1./Author: \"Though there was an abundance of th...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Though there was an abundance of th...\""
   },
   "DFr_66AD4764.Text": {
     "": {
       "Text": "Better keep an eye on you, fawn..."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Better keep an eye on you, fawn...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Better keep an eye on you, fawn...\""
   },
   "DFr_11256583.Text": {
     "": {
       "Text": "Penelope sat on the chair next to your rookery."
     },
-    "Context": "Flow/Scene 1./Author: \"Penelope sat on the chair next to y...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Penelope sat on the chair next to y...\""
   },
   "DFr_39AB2FDF.Text": {
     "": {
       "Text": "I will scrutinize your every move."
     },
-    "Context": "Flow/Scene 1./Penelope: \"I will scrutinize your every move.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"I will scrutinize your every move.\""
   },
   "DFr_C639D887.Text": {
     "": {
       "Text": "And I'm after your... graceful, graceful movements."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"And I'm after your... graceful, gra...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"And I'm after your... graceful, gra...\""
   },
   "DFr_CF1FFE41.Text": {
     "": {
       "Text": "You thought that now - before you were killed, there was a great chance to have some fun with a beautiful, if not - exotic, girl."
     },
-    "Context": "Flow/Scene 1./Author: \"You thought that now - before you w...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You thought that now - before you w...\""
   },
   "DFr_3B63B27E.Text": {
     "": {
       "Text": "You have a great chance to use a prisoner. Like a sex doll. Have you thought about that?"
     },
-    "Context": "Flow/Scene 1./Protagonist: \"You have a great chance to use a pr...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"You have a great chance to use a pr...\""
   },
   "DFr_15219048.Text": {
     "": {
       "Text": "You noticed her start to reach for her crotch and touch her breasts with the other."
     },
-    "Context": "Flow/Scene 1./Author: \"You noticed her start to reach for...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You noticed her start to reach for...\""
   },
   "DFr_473FE9ED.Text": {
     "": {
       "Text": "I don't know..."
     },
-    "Context": "Flow/Scene 1./Penelope: \"I don't know...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"I don't know...\""
   },
   "DFr_27C29F24.Text": {
     "": {
       "Text": "The choice will affect the relationship with Penelope."
     },
-    "Context": "Flow/Scene 1./Information: \"The choice will affect the relation...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Information: \"The choice will affect the relation...\""
   },
   "DFr_91A4E053.Text": {
     "": {
       "Text": "Why don't we just lure her in for a kiss first?"
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Why don't we just lure her in for a...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Why don't we just lure her in for a...\""
   },
   "DFr_200FFE86.Text": {
     "": {
       "Text": ""
     },
-    "Context": "Flow/Scene 1./Player: \"...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Player: \"...\""
   },
   "DFr_C044BE5F.Text": {
     "": {
       "Text": ""
     },
-    "Context": "Flow/Scene 1./Player: \"...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Player: \"...\""
   },
   "DFr_02810A70.Text": {
     "": {
       "Text": "You carefully got up from your rookery."
     },
-    "Context": "Flow/Scene 1./Author: \"You carefully got up from your rook...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You carefully got up from your rook...\""
   },
   "DFr_C9907A02.Text": {
     "": {
       "Text": "I didn't want to scare the fawn Penelope."
     },
-    "Context": "Flow/Scene 1./Author: \"I didn't want to scare the fawn Pen...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"I didn't want to scare the fawn Pen...\""
   },
   "DFr_FC62EDF7.Text": {
     "": {
       "Text": "There's a good chance she'd give you a kick in the liver for that."
     },
-    "Context": "Flow/Scene 1./Author: \"There's a good chance she'd give yo...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"There's a good chance she'd give yo...\""
   },
   "DFr_7C0028DF.Text": {
     "": {
       "Text": "Penelope closed her eyes and stretched forward slightly."
     },
-    "Context": "Flow/Scene 1./Author: \"Penelope closed her eyes and stretc...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Penelope closed her eyes and stretc...\""
   },
   "DFr_F715F1E7.Text": {
     "": {
       "Text": "Yeah, little virgin, _cname_`s about to show you what it's like to be wet."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Yeah, little virgin, _cname_`s abou...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Yeah, little virgin, _cname_`s abou...\""
   },
   "DFr_A3B3EFFF.Text": {
     "": {
       "Text": "_cname_ is a sex machine, your kiss will be passionate."
     },
-    "Context": "Flow/Scene 1./Information: \"_cname_ is a sex machine, your kiss...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Information: \"_cname_ is a sex machine, your kiss...\""
   },
   "DFr_3AE049DB.Text": {
     "": {
       "Text": "You put your hands on the chair close to her hips."
     },
-    "Context": "Flow/Scene 1./Author: \"You put your hands on the chair clo...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You put your hands on the chair clo...\""
   },
   "DFr_492273FB.Text": {
     "": {
       "Text": "Open your mouth, girl."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Open your mouth, girl.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Open your mouth, girl.\""
   },
   "DFr_63F023E4.Text": {
     "": {
       "Text": "She nodded lightly and opened her lips."
     },
-    "Context": "Flow/Scene 1./Author: \"She nodded lightly and opened her l...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"She nodded lightly and opened her l...\""
   },
   "DFr_141DF107.Text": {
     "": {
       "Text": "You began to slowly run your tongue over them to tease Penelope."
     },
-    "Context": "Flow/Scene 1./Author: \"You began to slowly run your tongue...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You began to slowly run your tongue...\""
   },
   "DFr_F0C2E080.Text": {
     "": {
       "Text": "Ah..."
     },
-    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Ah...\""
   },
   "DFr_E9DB0C00.Text": {
     "": {
       "Text": "Your fingers touched her thighs very lightly, and you felt them burn with fire."
     },
-    "Context": "Flow/Scene 1./Author: \"Your fingers touched her thighs ver...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Your fingers touched her thighs ver...\""
   },
   "DFr_A0C2957F.Text": {
     "": {
       "Text": "Imagine how hot you'd be if you touched my rock-hard cock."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Imagine how hot you'd be if you tou...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Imagine how hot you'd be if you tou...\""
   },
   "DFr_95D988C0.Text": {
     "": {
       "Text": "Ah..."
     },
-    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Ah...\""
   },
   "DFr_7E836E21.Text": {
     "": {
       "Text": "A noticeable blush appeared on her cheeks. She was shy, but she liked what you were saying and doing."
     },
-    "Context": "Flow/Scene 1./Author: \"A noticeable blush appeared on her...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"A noticeable blush appeared on her...\""
   },
   "DFr_4D21DDF4.Text": {
     "": {
       "Text": "Opposite you are the sexy wet lips of an inexperienced fawn."
     },
-    "Context": "Flow/Scene 1./Author: \"Opposite you are the sexy wet lips...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Opposite you are the sexy wet lips...\""
   },
   "DFr_65C82A9E.Text": {
     "": {
       "Text": "You thrust into them with all the passion to show the little girl how good it feels when you're around."
     },
-    "Context": "Flow/Scene 1./Author: \"You thrust into them with all the p...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You thrust into them with all the p...\""
   },
   "DFr_B3BF886E.Text": {
     "": {
       "Text": "Penelope wanted to say something else, but you didn't give her the chance, covering her lips with yours again."
     },
-    "Context": "Flow/Scene 1./Author: \"Penelope wanted to say something el...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Penelope wanted to say something el...\""
   },
   "DFr_AE300E00.Text": {
     "": {
       "Text": "For several long moments, you didn't pull away from each other, but when you had to catch your breath, Penelope made several attempts to free herself."
     },
-    "Context": "Flow/Scene 1./Author: \"For several long moments, you didn'...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"For several long moments, you didn'...\""
   },
   "DFr_47FBE2EB.Text": {
     "": {
       "Text": "Unsuccessful, though."
     },
-    "Context": "Flow/Scene 1./Author: \"Unsuccessful, though.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Unsuccessful, though.\""
   },
   "DFr_9DB10FB6.Text": {
     "": {
       "Text": "_cname_ is a bashful man, your kiss will be tender."
     },
-    "Context": "Flow/Scene 1./Information: \"_cname_ is a bashful man, your kiss...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Information: \"_cname_ is a bashful man, your kiss...\""
   },
   "DFr_F80143EE.Text": {
     "": {
       "Text": "Is that really what you want?"
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Is that really what you want?\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Is that really what you want?\""
   },
   "DFr_3BACC867.Text": {
     "": {
       "Text": "Penelope nodded."
     },
-    "Context": "Flow/Scene 1./Author: \"Penelope nodded.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Penelope nodded.\""
   },
   "DFr_BB97E791.Text": {
     "": {
       "Text": "You rose from the rookery, walked almost right up to Penelope and leaned over and whispered in her ear:"
     },
-    "Context": "Flow/Scene 1./Author: \"You rose from the rookery, walked a...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You rose from the rookery, walked a...\""
   },
   "DFr_FD2F8A18.Text": {
     "": {
       "Text": "Alexina can't find out about this. Right, my girl?"
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Alexina can't find out about this....\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Alexina can't find out about this....\""
   },
   "DFr_F79A0A89.Text": {
     "": {
       "Text": "The girl put her hands on Grant's shoulders and nodded to him."
     },
-    "Context": "Flow/Scene 1./Author: \"The girl put her hands on Grant's s...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"The girl put her hands on Grant's s...\""
   },
   "DFr_D810D7B7.Text": {
     "": {
       "Text": "You could feel the heat from her breasts."
     },
-    "Context": "Flow/Scene 1./Author: \"You could feel the heat from her br...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You could feel the heat from her br...\""
   },
   "DFr_23B7648E.Text": {
     "": {
       "Text": "You slowly drove your lips over hers with yours, teasing her a little."
     },
-    "Context": "Flow/Scene 1./Author: \"You slowly drove your lips over her...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You slowly drove your lips over her...\""
   },
   "DFr_3C71450C.Text": {
     "": {
       "Text": "She began to moan."
     },
-    "Context": "Flow/Scene 1./Author: \"She began to moan.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"She began to moan.\""
   },
   "DFr_3F90804C.Text": {
     "": {
       "Text": "Ah... Kiss me."
     },
-    "Context": "Flow/Scene 1./Penelope: \"Ah... Kiss me.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Ah... Kiss me.\""
   },
   "DFr_6146A3A6.Text": {
     "": {
       "Text": "You took your time. The first rule of good sex is a hot kiss."
     },
-    "Context": "Flow/Scene 1./Author: \"You took your time. The first rule...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You took your time. The first rule...\""
   },
   "DFr_8A936EF1.Text": {
     "": {
       "Text": "The first rule of a good kiss is a very hot girl."
     },
-    "Context": "Flow/Scene 1./Author: \"The first rule of a good kiss is a...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"The first rule of a good kiss is a...\""
   },
   "DFr_6C66DA23.Text": {
     "": {
       "Text": "But Penelope didn't hold back."
     },
-    "Context": "Flow/Scene 1./Author: \"But Penelope didn't hold back.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"But Penelope didn't hold back.\""
   },
   "DFr_7E3F8997.Text": {
     "": {
       "Text": "The girl stretched out to touch her lips to yours."
     },
-    "Context": "Flow/Scene 1./Author: \"The girl stretched out to touch her...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"The girl stretched out to touch her...\""
   },
   "DFr_B4051763.Text": {
     "": {
       "Text": "She didn't know how to kiss, of course. But she tried to swallow your tongue with all the passion she could muster."
     },
-    "Context": "Flow/Scene 1./Author: \"She didn't know how to kiss, of cou...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"She didn't know how to kiss, of cou...\""
   },
   "DFr_2E545A42.Text": {
     "": {
       "Text": "You decide to take the initiative by showing the little fawn how to work his tongue properly."
     },
-    "Context": "Flow/Scene 1./Author: \"You decide to take the initiative b...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"You decide to take the initiative b...\""
   },
   "DFr_D53B590A.Text": {
     "": {
       "Text": "She relaxed and gave herself to the process."
     },
-    "Context": "Flow/Scene 1./Author: \"She relaxed and gave herself to the...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"She relaxed and gave herself to the...\""
   },
   "DFr_7809429D.Text": {
     "": {
       "Text": "Ah..."
     },
-    "Context": "Flow/Scene 1./Penelope: \"Ah...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Ah...\""
   },
   "DFr_D95F3AD2.Text": {
     "": {
       "Text": "Suddenly she pulled away from your lips, startled by her passionate nature."
     },
-    "Context": "Flow/Scene 1./Author: \"Suddenly she pulled away from your...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"Suddenly she pulled away from your...\""
   },
   "DFr_CA843F8A.Text": {
     "": {
       "Text": "She whispered:"
     },
-    "Context": "Flow/Scene 1./Author: \"She whispered:\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Author: \"She whispered:\""
   },
   "DFr_CD65C04B.Text": {
     "": {
       "Text": "I'm on fire."
     },
-    "Context": "Flow/Scene 1./Penelope: \"I'm on fire.\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"I'm on fire.\""
   },
   "DFr_0F57EDDA.Text": {
     "": {
       "Text": "Why don't you and I have a different kind of fun?"
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Why don't you and I have a differen...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Why don't you and I have a differen...\""
   },
   "DFr_22481F5A.Text": {
     "": {
       "Text": "How, exactly?"
     },
-    "Context": "Flow/Scene 1./Penelope: \"How, exactly?\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"How, exactly?\""
   },
   "DFr_CE654384.Text": {
     "": {
       "Text": "Like a grown-up. I'll show you what pleasure is."
     },
-    "Context": "Flow/Scene 1./Protagonist: \"Like a grown-up. I'll show you what...\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Protagonist: \"Like a grown-up. I'll show you what...\""
   },
   "DFr_1CCFF9A5.Text": {
     "": {
       "Text": "Are you sure you're feeling okay?"
     },
-    "Context": "Flow/Scene 1./Penelope: \"Are you sure you're feeling okay?\""
+    "Context": "Flow/Scene 1. Prisoner`s room (mess)/Penelope: \"Are you sure you're feeling okay?\""
   },
   "Ntt_86B32069.DisplayName": {
     "": {

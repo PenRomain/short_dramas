@@ -20,7 +20,7 @@ export function useMusic() {
       return;
     }
 
-    const url = `/ivhid_src/${encodeURIComponent(trackFileName)}`;
+    const url = `/amazons/${encodeURIComponent(trackFileName)}`;
 
     fetch(url)
       .then((r) => {

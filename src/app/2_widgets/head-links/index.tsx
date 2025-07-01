@@ -15,7 +15,7 @@ export default function HeadLinks() {
   const preloadLinks = list
     .filter((l) => l.includes("png"))
     .map((name) => {
-      const url = `/ivhid_src/${encodeURIComponent(name)}`;
+      const url = `/amazons/${encodeURIComponent(name)}`;
       return `/_next/image?url=${encodeURIComponent(url)}&w=640&q=100`;
     });
   return (

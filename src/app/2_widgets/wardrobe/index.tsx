@@ -33,7 +33,7 @@ const WardrobeImage = memo(function WardrobeImage({
   return (
     <Image
       sizes="100dvw"
-      src={`/ivhid_src/${image}`}
+      src={`/amazons/${image}`}
       alt={image}
       width={400}
       height={800}

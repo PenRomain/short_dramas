@@ -10,7 +10,8 @@
     margin: auto;
   }
 
-  &.Carolina, &.Melissa {
+  &.Carolina,
+  &.Melissa {
     margin-top: 54dvh;
   }
 }

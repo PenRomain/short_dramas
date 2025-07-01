@@ -63,7 +63,7 @@ const BackgroundImageInternal = memo(function BackgroundImageInternal({
   return (
     <MotionImage
       animate={shiftControls}
-      src={`/ivhid_src/${image}.png`}
+      src={`/amazons/${image}.png`}
       fill
       sizes="100dvw"
       priority

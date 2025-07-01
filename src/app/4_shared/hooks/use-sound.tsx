@@ -16,7 +16,7 @@ export function useSound() {
   useEffect(() => {
     if (!fileName || !soundKey) return;
 
-    const urlPath = `/ivhid_src/${encodeURIComponent(fileName)}`;
+    const urlPath = `/amazons/${encodeURIComponent(fileName)}`;
     if (!playedRef.current.has(soundKey)) {
       playedRef.current.add(soundKey);
 

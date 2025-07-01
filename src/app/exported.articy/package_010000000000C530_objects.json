@@ -147,9 +147,7 @@
         "TechnicalName": "Dlg_F692132E",
         "Id": "0x010000000000C604",
         "Parent": "0x010000000000C5F1",
-        "Attachments": [
-          "0x010000000000C553"
-        ],
+        "Attachments": ["0x010000000000C553"],
         "DisplayName": "Dlg_F692132E.DisplayName",
         "PreviewImage": {
           "ViewBox": {
@@ -226,9 +224,7 @@
         "TechnicalName": "Dlg_6DD42AA1",
         "Id": "0x010000000000C8CB",
         "Parent": "0x010000000000C5F1",
-        "Attachments": [
-          "0x010000000000C557"
-        ],
+        "Attachments": ["0x010000000000C557"],
         "DisplayName": "Dlg_6DD42AA1.DisplayName",
         "PreviewImage": {
           "ViewBox": {
@@ -305,9 +301,7 @@
         "TechnicalName": "Dlg_C1912A78",
         "Id": "0x010000000000CB2D",
         "Parent": "0x010000000000CB21",
-        "Attachments": [
-          "0x010000000000C567"
-        ],
+        "Attachments": ["0x010000000000C567"],
         "DisplayName": "Dlg_C1912A78.DisplayName",
         "PreviewImage": {
           "ViewBox": {
@@ -3371,8 +3365,8 @@
                   "b": 0.90588236
                 },
                 "Label": "",
-                "TargetPin": "0x010000000000CA8D",
-                "Target": "0x010000000000CA8B"
+                "TargetPin": "0x010000000000CDD0",
+                "Target": "0x010000000000CDCE"
               }
             ]
           }
@@ -4323,8 +4317,8 @@
                   "b": 0.90588236
                 },
                 "Label": "",
-                "TargetPin": "0x010000000000CB49",
-                "Target": "0x010000000000CB48"
+                "TargetPin": "0x010000000000CDD5",
+                "Target": "0x010000000000CDD3"
               }
             ]
           }
@@ -9069,6 +9063,114 @@
     {
       "Type": "Instruction",
       "Properties": {
+        "TechnicalName": "Ins_A5C66C4A",
+        "Id": "0x010000000000CDA5",
+        "Parent": "0x010000000000C604",
+        "DisplayName": "Paywall.OpenPaywall = true;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 9450.0,
+          "y": 275.0
+        },
+        "ZIndex": 79.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 2781244490,
+        "Expression": "Paywall.OpenPaywall = true;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDA7",
+            "Owner": "0x010000000000CDA5"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDA8",
+            "Owner": "0x010000000000CDA5",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000CDAC",
+                "Target": "0x010000000000CDAA"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_167517C5",
+        "Id": "0x010000000000CDAA",
+        "Parent": "0x010000000000C604",
+        "DisplayName": "Music.amazons_beach_amb = false;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 9775.0,
+          "y": 275.0
+        },
+        "ZIndex": 81.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 376772549,
+        "Expression": "Music.amazons_beach_amb = false;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDAC",
+            "Owner": "0x010000000000CDAA"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDAD",
+            "Owner": "0x010000000000CDAA",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000C608",
+                "Target": "0x010000000000C604"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
         "TechnicalName": "Ins_87A471D2",
         "Id": "0x010000000000C9CC",
         "Parent": "0x010000000000C8CB",
@@ -9501,6 +9603,155 @@
     {
       "Type": "Instruction",
       "Properties": {
+        "TechnicalName": "Ins_053EBB7F",
+        "Id": "0x010000000000CDAF",
+        "Parent": "0x010000000000C8CB",
+        "DisplayName": "Music.amazons_jungle_amb = false;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 2225.0,
+          "y": 25.0
+        },
+        "ZIndex": 93.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 87997311,
+        "Expression": "Music.amazons_jungle_amb = false;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDB1",
+            "Owner": "0x010000000000CDAF"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDB2",
+            "Owner": "0x010000000000CDAF",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000CA08",
+                "Target": "0x010000000000CA07"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_3A8E1CF8",
+        "Id": "0x010000000000CDB4",
+        "Parent": "0x010000000000C8CB",
+        "DisplayName": "Paywall.OpenPaywall = true;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 10275.0,
+          "y": 225.0
+        },
+        "ZIndex": 95.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 982392056,
+        "Expression": "Paywall.OpenPaywall = true;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDB6",
+            "Owner": "0x010000000000CDB4"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDB7",
+            "Owner": "0x010000000000CDB4"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_CFC66B2A",
+        "Id": "0x010000000000CDBA",
+        "Parent": "0x010000000000C8CB",
+        "DisplayName": "Sound.amazons_dart = false;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 9825.0,
+          "y": -25.0
+        },
+        "ZIndex": 73.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 3485887274,
+        "Expression": "Sound.amazons_dart = false;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDBB",
+            "Owner": "0x010000000000CDBA"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDBC",
+            "Owner": "0x010000000000CDBA",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000CAEC",
+                "Target": "0x010000000000CAEB"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
         "TechnicalName": "Ins_B11074D3",
         "Id": "0x010000000000CB3A",
         "Parent": "0x010000000000CB2D",
@@ -9771,263 +10022,6 @@
     {
       "Type": "Instruction",
       "Properties": {
-        "TechnicalName": "Ins_A5C66C4A",
-        "Id": "0x010000000000CDA5",
-        "Parent": "0x010000000000C604",
-        "DisplayName": "Paywall.OpenPaywall = true;",
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 9450.0,
-          "y": 275.0
-        },
-        "ZIndex": 79.0,
-        "Size": {
-          "w": 225.0,
-          "h": 100.0
-        },
-        "ShortId": 2781244490,
-        "Expression": "Paywall.OpenPaywall = true;",
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "InputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDA7",
-            "Owner": "0x010000000000CDA5"
-          }
-        ],
-        "OutputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDA8",
-            "Owner": "0x010000000000CDA5",
-            "Connections": [
-              {
-                "Color": {
-                  "a": 1.0,
-                  "r": 0.78431374,
-                  "g": 0.8862745,
-                  "b": 0.90588236
-                },
-                "Label": "",
-                "TargetPin": "0x010000000000CDAC",
-                "Target": "0x010000000000CDAA"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Instruction",
-      "Properties": {
-        "TechnicalName": "Ins_167517C5",
-        "Id": "0x010000000000CDAA",
-        "Parent": "0x010000000000C604",
-        "DisplayName": "Music.amazons_beach_amb = false;",
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 9775.0,
-          "y": 275.0
-        },
-        "ZIndex": 81.0,
-        "Size": {
-          "w": 225.0,
-          "h": 100.0
-        },
-        "ShortId": 376772549,
-        "Expression": "Music.amazons_beach_amb = false;",
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "InputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDAC",
-            "Owner": "0x010000000000CDAA"
-          }
-        ],
-        "OutputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDAD",
-            "Owner": "0x010000000000CDAA",
-            "Connections": [
-              {
-                "Color": {
-                  "a": 1.0,
-                  "r": 0.78431374,
-                  "g": 0.8862745,
-                  "b": 0.90588236
-                },
-                "Label": "",
-                "TargetPin": "0x010000000000C608",
-                "Target": "0x010000000000C604"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Instruction",
-      "Properties": {
-        "TechnicalName": "Ins_053EBB7F",
-        "Id": "0x010000000000CDAF",
-        "Parent": "0x010000000000C8CB",
-        "DisplayName": "Music.amazons_jungle_amb = false;",
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 2225.0,
-          "y": 25.0
-        },
-        "ZIndex": 93.0,
-        "Size": {
-          "w": 225.0,
-          "h": 100.0
-        },
-        "ShortId": 87997311,
-        "Expression": "Music.amazons_jungle_amb = false;",
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "InputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDB1",
-            "Owner": "0x010000000000CDAF"
-          }
-        ],
-        "OutputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDB2",
-            "Owner": "0x010000000000CDAF",
-            "Connections": [
-              {
-                "Color": {
-                  "a": 1.0,
-                  "r": 0.78431374,
-                  "g": 0.8862745,
-                  "b": 0.90588236
-                },
-                "Label": "",
-                "TargetPin": "0x010000000000CA08",
-                "Target": "0x010000000000CA07"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Instruction",
-      "Properties": {
-        "TechnicalName": "Ins_3A8E1CF8",
-        "Id": "0x010000000000CDB4",
-        "Parent": "0x010000000000C8CB",
-        "DisplayName": "Paywall.OpenPaywall = true;",
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 10275.0,
-          "y": 225.0
-        },
-        "ZIndex": 95.0,
-        "Size": {
-          "w": 225.0,
-          "h": 100.0
-        },
-        "ShortId": 982392056,
-        "Expression": "Paywall.OpenPaywall = true;",
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "InputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDB6",
-            "Owner": "0x010000000000CDB4"
-          }
-        ],
-        "OutputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDB7",
-            "Owner": "0x010000000000CDB4"
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Instruction",
-      "Properties": {
-        "TechnicalName": "Ins_CFC66B2A",
-        "Id": "0x010000000000CDBA",
-        "Parent": "0x010000000000C8CB",
-        "DisplayName": "Sound.amazons_dart = false;",
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 9825.0,
-          "y": -25.0
-        },
-        "ZIndex": 73.0,
-        "Size": {
-          "w": 225.0,
-          "h": 100.0
-        },
-        "ShortId": 3485887274,
-        "Expression": "Sound.amazons_dart = false;",
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "InputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDBB",
-            "Owner": "0x010000000000CDBA"
-          }
-        ],
-        "OutputPins": [
-          {
-            "Text": "",
-            "Id": "0x010000000000CDBC",
-            "Owner": "0x010000000000CDBA",
-            "Connections": [
-              {
-                "Color": {
-                  "a": 1.0,
-                  "r": 0.78431374,
-                  "g": 0.8862745,
-                  "b": 0.90588236
-                },
-                "Label": "",
-                "TargetPin": "0x010000000000CAEC",
-                "Target": "0x010000000000CAEB"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Instruction",
-      "Properties": {
         "TechnicalName": "Ins_80446101",
         "Id": "0x010000000000CDBF",
         "Parent": "0x010000000000CB2D",
@@ -10127,6 +10121,114 @@
                 "Label": "",
                 "TargetPin": "0x010000000000CB31",
                 "Target": "0x010000000000CB2D"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_3EA3FD86",
+        "Id": "0x010000000000CDCE",
+        "Parent": "0x010000000000C8CB",
+        "DisplayName": "Wardrobe.Alexina = 1;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 5900.0,
+          "y": 0.0
+        },
+        "ZIndex": 98.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 1050934662,
+        "Expression": "Wardrobe.Alexina = 1;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDD0",
+            "Owner": "0x010000000000CDCE"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDD1",
+            "Owner": "0x010000000000CDCE",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000CA8D",
+                "Target": "0x010000000000CA8B"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_0D3944E6",
+        "Id": "0x010000000000CDD3",
+        "Parent": "0x010000000000CB2D",
+        "DisplayName": "Wardrobe.Penelope = 1;",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 525.0,
+          "y": 75.0
+        },
+        "ZIndex": 175.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 221856998,
+        "Expression": "Wardrobe.Penelope = 1;",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDD5",
+            "Owner": "0x010000000000CDD3"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000CDD6",
+            "Owner": "0x010000000000CDD3",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000CB49",
+                "Target": "0x010000000000CB48"
               }
             ]
           }
@@ -10585,80 +10687,6 @@
         "IsPlayer": {
           "IsPlayer": null
         }
-      }
-    },
-    {
-      "Type": "Location",
-      "Properties": {
-        "TechnicalName": "Loc_3BAAD565",
-        "Id": "0x010000000000C547",
-        "Parent": "0x030000003140D3AC",
-        "Attachments": [],
-        "DisplayName": "Ship's cabin",
-        "PreviewImage": {
-          "ViewBox": {
-            "x": 0.0,
-            "y": 0.0,
-            "w": 0.0,
-            "h": 0.0
-          },
-          "Mode": "FromAsset",
-          "Asset": "0x010000000000C56B"
-        },
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 0.0,
-          "y": 0.0
-        },
-        "ZIndex": 0.0,
-        "Size": {
-          "w": 256.0,
-          "h": 196.0
-        },
-        "ShortId": 1001051493
-      }
-    },
-    {
-      "Type": "Location",
-      "Properties": {
-        "TechnicalName": "Loc_780C4901",
-        "Id": "0x010000000000C54B",
-        "Parent": "0x030000003140D3AC",
-        "Attachments": [],
-        "DisplayName": "Ship's cabin (blur)",
-        "PreviewImage": {
-          "ViewBox": {
-            "x": 0.0,
-            "y": 0.0,
-            "w": 0.0,
-            "h": 0.0
-          },
-          "Mode": "FromAsset",
-          "Asset": "0x0000000000000000"
-        },
-        "Color": {
-          "r": 0.78431374,
-          "g": 0.8862745,
-          "b": 0.90588236
-        },
-        "Text": "",
-        "ExternalId": "",
-        "Position": {
-          "x": 20.0,
-          "y": 20.0
-        },
-        "ZIndex": 1.0,
-        "Size": {
-          "w": 256.0,
-          "h": 196.0
-        },
-        "ShortId": 2014071041
       }
     },
     {

@@ -7,7 +7,7 @@ import {
 } from "@aws-sdk/client-s3";
 
 const BUCKET = process.env.R2_BUCKET!;
-const PREFIX = "ivhid_src/";
+const PREFIX = "amazons/";
 
 const s3 = new S3Client({
   region: "auto",

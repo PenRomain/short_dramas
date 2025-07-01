@@ -37,7 +37,7 @@ export function Prefetch({ children }: { children: React.ReactNode }) {
   //     async function worker() {
   //       while (!cancelled && queue.length) {
   //         const rel = queue.shift()!;
-  //         const url = `/ivhid_src/${encodeURIComponent(rel)}`;
+  //         const url = `/amazons/${encodeURIComponent(rel)}`;
 
   //         const res = await fetch(url);
   //         if (res.ok) {

@@ -1,12 +1,12 @@
 .wrap {
-	width: 75px;
+  width: 75px;
   height: 65px;
   transform: rotate(90deg) scale(0.75);
 
   @mixin hover {
     & polygon {
-      fill: #FFF;
-      transition: all .2s ease-out;
+      fill: #fff;
+      transition: all 0.2s ease-out;
 
       &.arrowBottom {
         transform: translateY(-18px);
@@ -24,14 +24,14 @@
 }
 
 .polygon {
-  fill: #FFF;
-  transition: all .2s ease-out;
-    
-  &.arrowMiddle {
-	  opacity: 0.75;
-	}
+  fill: #fff;
+  transition: all 0.2s ease-out;
 
-	&.arrowTop {
-	  opacity: 0.5
-	}	 
+  &.arrowMiddle {
+    opacity: 0.75;
+  }
+
+  &.arrowTop {
+    opacity: 0.5;
+  }
 }

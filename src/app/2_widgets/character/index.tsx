@@ -83,7 +83,7 @@ export default memo(function Character() {
     (async () => {
       const bitmaps = await Promise.all(
         urls.map((u) =>
-          fetch(`/ivhid_src/${u}`)
+          fetch(`/amazons/${u}`)
             .then((r) => r.blob())
             .then((b) => createImageBitmap(b)),
         ),

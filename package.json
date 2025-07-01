@@ -6,7 +6,7 @@
     "build:articy": "node tools/build-articy.mjs",
     "build:bundle": "node --env-file .env tools/build-assets-bundle.mjs",
     "dev": "node tools/build-articy.mjs && next dev --turbopack",
-    "build": "npm run lint && npm run type-check && next build",
+    "build": "npm run build:articy && npm run lint && npm run type-check && npm run format && next build",
     "start": "next start",
     "format": "prettier -w \"src/**/*.{ts,tsx,css,md,json}\"",
     "type-check": "tsc --noEmit --pretty",
