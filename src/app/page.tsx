@@ -23,12 +23,12 @@ export default function Home() {
     <div className={styles.page}>
       <GameProvider
         startId={
-          // mainStart
+          mainStart
           // beforePaywall
           // beforeBlackOut
           // beforeBlackOut2
           // way
-          paywall
+          // paywall
         }
       >
         <BackgroundProvider>
