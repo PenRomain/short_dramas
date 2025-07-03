@@ -1,7 +1,7 @@
 import { FlowBranch, DialogueFragment, Instruction, Variable } from "articy-js";
 import { db } from "@/shared/model";
 
-const wardrobeKeys = ["mainCh_Race", "mainCh_Clothes", "Carolina"] as const;
+const wardrobeKeys = ["mainCh_Race", "mainCh_Clothes", "Penelope"] as const;
 export type WardrobeKey = (typeof wardrobeKeys)[number];
 
 const isWardrobeKey = (key: string): key is WardrobeKey =>
@@ -30,7 +30,7 @@ export function parseBranch(
   const keys = {
     mainCh_Race: "race",
     mainCh_Clothes: "clothes",
-    Carolina: "clothes",
+    Penelope: "clothes",
   };
   const value = Number(rhs);
   if (isNaN(value) || !isWardrobeKey(key)) return null;
@@ -38,7 +38,7 @@ export function parseBranch(
   return {
     key,
     [keys[key]]: value,
-    ...(key !== "mainCh_Race" && key !== "Carolina" && { race: +mainCh_Race }),
+    ...(key !== "mainCh_Race" && key !== "Penelope" && { race: +mainCh_Race }),
   };
 }
 
@@ -62,11 +62,11 @@ export function lookImages({
         `Ivhid_Main_${race}_Idle.png`,
       ];
 
-    case "Carolina":
+    case "Penelope":
       return [
-        `Ivhid_Carolina_Body.png`,
-        `Ivhid_Wardrobe_Carolina_${clothes}.png`,
-        `Ivhid_Carolina_Idle.png`,
+        `Ivhid_Penelope_Body.png`,
+        `Ivhid_Wardrobe_Penelope_${clothes}.png`,
+        `Ivhid_Penelope_Idle.png`,
       ];
   }
 }

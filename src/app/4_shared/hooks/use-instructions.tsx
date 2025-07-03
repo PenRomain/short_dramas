@@ -12,10 +12,8 @@ export function useInstructions() {
 
   useEffect(() => {
     const expressions = instruction?.properties.Expression.split("=");
-
     const [ns, name] = expressions?.[0].split(".").map((s) => s.trim()) ?? [];
     const value = expressions?.[1].trim().replace(";", "");
-
     if (ns && name && value) {
       setState((prev) => ({
         ...prev,

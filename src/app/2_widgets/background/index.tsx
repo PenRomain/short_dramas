@@ -108,7 +108,6 @@ export default memo(function Background() {
   const { data: sheets } = useGetSheetsManifestQuery();
   const { data, isLoading } = useGetDriveManifestQuery();
   const controls = useCutsceneZoom();
-
   const [imageNameToLoad, setImageNameToLoad] = useState<
     string | null | undefined
   >(null);
@@ -126,6 +125,7 @@ export default memo(function Background() {
   const [sceneIdOfTemp, setSceneIdOfTemp] = useState<string | null>(null);
   const [cutscene, setCutscene] = useCutscene();
   const prevLocationRef = useRef<null | string>(null);
+  const openPaywall = gameState.variables.Paywall.OpenPaywall;
 
   useEffect(() => {
     const cuts = gameState.variables?.Cutscenes;
@@ -161,7 +161,7 @@ export default memo(function Background() {
     }
   }, [background, cutscene, defaultImageName, isFading, location, switchScene]);
 
-  if (!imageNameToLoad || !data || isLoading) return null;
+  if (!imageNameToLoad || !data || isLoading || openPaywall) return null;
 
   return (
     <AnimatePresence>

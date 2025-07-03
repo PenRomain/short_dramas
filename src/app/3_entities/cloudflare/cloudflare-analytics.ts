@@ -10,15 +10,14 @@ type ServiceError = {
 type ServiceResult = ServiceSuccess | ServiceError;
 
 export class CloudflareAnalyticsService {
-  private async callEndpoint(path: string): Promise<ServiceResult> {
-    console.log(
-      "%csrc/app/3_entities/cloudflare/cloudflare-analytics.ts:14 path",
-      "color: #007acc;",
-      path,
-    );
+  private async callEndpoint(
+    path: string,
+    data?: Record<"email", string>,
+  ): Promise<ServiceResult> {
     try {
       const res = await fetch(`/api/cloudflare-analytics/${path}`, {
         method: "POST",
+        ...(data && { body: JSON.stringify(data) }),
         headers: { "Content-Type": "application/json" },
         credentials: "include",
       });
@@ -47,5 +46,9 @@ export class CloudflareAnalyticsService {
 
   reachLastScene = (): Promise<ServiceResult> => {
     return this.callEndpoint("last-scene");
+  };
+
+  updateUser = (props: Record<"email", string>): Promise<ServiceResult> => {
+    return this.callEndpoint("update-user", props);
   };
 }

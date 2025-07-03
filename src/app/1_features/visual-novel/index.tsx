@@ -20,11 +20,11 @@ import { getBranchLabel } from "@/shared/utils/get-branch-label";
 import { AnimatePresence, motion } from "framer-motion";
 import TypingEffect from "@/shared/uikit/typing-effect";
 import { useNodeTextWithName } from "@/shared/hooks/use-node-text-with-name";
-import { useMusic } from "@/shared/hooks/use-music";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
 import { CloudflareAnalyticsService } from "../../3_entities/cloudflare/cloudflare-analytics";
-import { useSound } from "@/shared/hooks/use-sound";
+// import { useMusic } from "@/shared/hooks/use-music";
+// import { useSound } from "@/shared/hooks/use-sound";
 
 const PRICE = 120;
 
@@ -86,8 +86,8 @@ const PremiumButton = memo(function PremiumButton({
 export default memo(function VisualNovel() {
   const [state] = useGameState();
   useInstructions();
-  useMusic();
-  useSound();
+  // useMusic();
+  // useSound();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();
   const { isFading } = useGameContext();

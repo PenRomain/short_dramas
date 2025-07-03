@@ -46,30 +46,35 @@ export default memo(function Character() {
     const emo = emotions.find((e) => e.includes(emotion));
 
     const mainClothes = state.variables.Wardrobe.mainCh_Clothes;
-    const caroClothes = state.variables.Wardrobe.Carolina;
+    const penelopeClothes = state.variables.Wardrobe.Penelope;
+    const alexinaClothes = state.variables.Wardrobe.Alexina;
 
     return {
       bodyImg: body ? `${body}.png` : undefined,
       emoImg: emo ? `${emo}.png` : undefined,
       suitImg:
         character === Characters.Protagonist && mainClothes
-          ? `mainCh_Clothes_${mainClothes}.png`
-          : character === Characters.Carolina && caroClothes
-            ? `Ivhid_Wardrobe_Carolina_${caroClothes}.png`
-            : undefined,
+          ? `Amazons_Wardrobe_MainCh_Clothes_${mainClothes}.png`
+          : character === Characters.Penelope && penelopeClothes
+            ? `Amazons_Wardrobe_Penelope_${penelopeClothes}.png`
+            : character === Characters.Alexina && alexinaClothes
+              ? `Amazons_Wardrobe_Alexina_${alexinaClothes}.png`
+              : undefined,
     };
   }, [
     character,
     emotion,
     race,
     sheets?.emotions,
-    state.variables.Wardrobe.Carolina,
+    state.variables.Wardrobe.Alexina,
+    state.variables.Wardrobe.Penelope,
     state.variables.Wardrobe.mainCh_Clothes,
   ]);
 
   const urls = [bodyImg, suitImg, emoImg].filter((u): u is string =>
     Boolean(u),
   );
+
   const urlsString = useMemo(() => urls.join("|"), [urls]);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const controls = useAnimation();
@@ -81,14 +86,16 @@ export default memo(function Character() {
     controls.set("hidden");
 
     (async () => {
-      const bitmaps = await Promise.all(
-        urls.map((u) =>
-          fetch(`/amazons/${u}`)
-            .then((r) => r.blob())
-            .then((b) => createImageBitmap(b)),
-        ),
-      );
-
+      const bitmaps = (
+        await Promise.all(
+          urls.map(async (u) => {
+            const r = await fetch(`/amazons/${u}`);
+            if (r.ok) {
+              return createImageBitmap(await r.blob());
+            }
+          }),
+        )
+      ).filter((b) => b !== undefined);
       if (cancelled) return;
       const canvas = canvasRef.current;
       if (!canvas) return;

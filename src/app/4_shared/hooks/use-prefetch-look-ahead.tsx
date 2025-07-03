@@ -126,9 +126,9 @@ export function usePrefetchLookAhead() {
           imgNames.add(`mainCh_Clothes_${i + 1}.png`);
         });
       }
-      if (character === Characters.Carolina) {
+      if (character === Characters.Penelope) {
         Array.from({ length: CAROLINAS_CLOTHES }).forEach((_, i) => {
-          imgNames.add(`Ivhid_Wardrobe_Carolina_${i + 1}.png`);
+          imgNames.add(`Ivhid_Wardrobe_Penelope_${i + 1}.png`);
         });
       }
     }
