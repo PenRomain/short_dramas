@@ -86,6 +86,11 @@ const PremiumButton = memo(function PremiumButton({
 export default memo(function VisualNovel() {
   const [state] = useGameState();
   useInstructions();
+  console.log(
+    "%csrc/app/1_features/visual-novel/index.tsx:89 state",
+    "color: #007acc;",
+    state,
+  );
   // useMusic();
   // useSound();
   const handleChoice = useGameChoice();

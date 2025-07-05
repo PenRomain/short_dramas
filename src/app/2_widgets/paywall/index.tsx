@@ -1,7 +1,7 @@
 "use client";
 
 import { useGameState } from "@/shared/context/game-context";
-import { memo, useCallback, useMemo, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./paywall.module.css";
 import Image from "next/image";
 import { Anton } from "next/font/google";
@@ -9,6 +9,7 @@ import cx from "clsx";
 import Link from "next/link";
 import { CloudflareAnalyticsService } from "../../3_entities/cloudflare/cloudflare-analytics";
 import Button from "@/shared/uikit/button";
+import { useCookies } from "react-cookie";
 
 const anton = Anton({
   variable: "--font-anton",
@@ -89,6 +90,18 @@ export default memo(function Paywall() {
   const [payed, setPayed] = useState(false);
   const openPaywall = state.variables.Paywall.OpenPaywall;
   const controller = useMemo(() => new CloudflareAnalyticsService(), []);
+  const [cookies, setCookies] = useCookies(["last_scene_reached"]);
+  const isLastSceneReached = !!cookies.last_scene_reached;
+
+  useEffect(() => {
+    if (openPaywall && !isLastSceneReached) {
+      controller.reachLastScene();
+      setCookies("last_scene_reached", "1", {
+        path: "/",
+        maxAge: 60 * 60 * 24 * 365,
+      });
+    }
+  }, [controller, isLastSceneReached, openPaywall, setCookies]);
 
   const handlePayClick = async () => {
     if (payed) {
@@ -101,11 +114,7 @@ export default memo(function Paywall() {
         setPayed(true);
       }
     } catch (e) {
-      console.log(
-        "%csrc/app/2_widgets/paywall/index.tsx:100 e",
-        "color: #007acc;",
-        e,
-      );
+      console.error("Paywall error: ", e);
     }
   };
 

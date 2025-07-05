@@ -7,6 +7,7 @@ import cx from "clsx";
 import { OrientationGuard } from "./2_widgets/orientation-guard";
 import { Prefetch } from "./2_widgets/prefetch";
 import { InitUser } from "./3_entities/user/init-user";
+import CookiesProviderWrap from "./4_shared/cookies-provider-wrap";
 
 // const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
 
@@ -22,7 +23,7 @@ const montserratSubrayada = Montserrat_Subrayada({
 });
 
 export const metadata: Metadata = {
-  title: "Dubai",
+  title: "Short dramas",
   description: "Visual novel",
 };
 
@@ -39,13 +40,15 @@ export default async function RootLayout({
       />
       {/* <HeadLinks /> */}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
-        <InitUser>
-          <OrientationGuard>
-            <StoreProvider>
-              <Prefetch>{children}</Prefetch>
-            </StoreProvider>
-          </OrientationGuard>
-        </InitUser>
+        <CookiesProviderWrap>
+          <InitUser>
+            <OrientationGuard>
+              <StoreProvider>
+                <Prefetch>{children}</Prefetch>
+              </StoreProvider>
+            </OrientationGuard>
+          </InitUser>
+        </CookiesProviderWrap>
       </body>
     </html>
   );
