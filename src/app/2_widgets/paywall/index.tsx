@@ -44,6 +44,9 @@ const EmailFormModal = memo(function EmailFormModal({
   const [gratitude, setGratitude] = useState(false);
   const handleSubscribe = useCallback(async () => {
     try {
+      if (!value) {
+        return;
+      }
       const result = await controller.updateUser({ email: value });
       if (result.status === "success") {
         setValue("");
@@ -76,7 +79,9 @@ const EmailFormModal = memo(function EmailFormModal({
                 type="email"
                 placeholder="Your email"
               />
-              <Button onClick={handleSubscribe}>Subscribe</Button>
+              <Button type="button" onClick={handleSubscribe}>
+                Subscribe
+              </Button>
             </form>
           </>
         )}
