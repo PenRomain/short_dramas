@@ -7,13 +7,13 @@ const ENDPOINT =
 
 export async function POST(req: NextRequest) {
   const userId = req.cookies.get("analytics_user_id")?.value;
-  const { email } = await req.json();
-
-  if (!userId) {
-    return NextResponse.json({ error: "No userId" }, { status: 400 });
-  }
 
   try {
+    const { email } = await req.json();
+
+    if (!userId) {
+      return NextResponse.json({ error: "No userId" }, { status: 400 });
+    }
     await axios.post(
       `${ENDPOINT}/events/update-user`,
       { userId, email },

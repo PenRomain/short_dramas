@@ -23,8 +23,8 @@ import { useNodeTextWithName } from "@/shared/hooks/use-node-text-with-name";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
 import { CloudflareAnalyticsService } from "../../3_entities/cloudflare/cloudflare-analytics";
-// import { useMusic } from "@/shared/hooks/use-music";
-// import { useSound } from "@/shared/hooks/use-sound";
+import { useMusic } from "@/shared/hooks/use-music";
+import { useSound } from "@/shared/hooks/use-sound";
 
 const PRICE = 120;
 
@@ -91,8 +91,8 @@ export default memo(function VisualNovel() {
     "color: #007acc;",
     state,
   );
-  // useMusic();
-  // useSound();
+  useMusic();
+  useSound();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();
   const { isFading } = useGameContext();
@@ -109,6 +109,7 @@ export default memo(function VisualNovel() {
   const character = node.Speaker?.properties.DisplayName;
   const isMainCharacter = character === Characters.Protagonist;
   const isCharacter = character && isKeyOf(character, Characters);
+  const name = isMainCharacter ? characterName : character;
 
   return (
     <div className={cx(styles.container, character && styles[character])}>
@@ -135,14 +136,14 @@ export default memo(function VisualNovel() {
             transition: { duration: 0.2, ease: "easeIn" },
           }}
         >
-          {isCharacter && (
+          {isCharacter && name && (
             <p
               className={cx(
                 styles.character,
                 isMainCharacter && styles.isMainCharacter,
               )}
             >
-              {isMainCharacter ? characterName : character}
+              {name}
             </p>
           )}
 

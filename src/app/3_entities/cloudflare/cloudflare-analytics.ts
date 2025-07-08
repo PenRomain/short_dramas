@@ -49,6 +49,11 @@ export class CloudflareAnalyticsService {
   };
 
   updateUser = (props: Record<"email", string>): Promise<ServiceResult> => {
+    console.log(
+      "%csrc/app/3_entities/cloudflare/cloudflare-analytics.ts:52 props",
+      "color: #007acc;",
+      props,
+    );
     return this.callEndpoint("update-user", props);
   };
 }

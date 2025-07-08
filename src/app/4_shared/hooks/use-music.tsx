@@ -10,6 +10,7 @@ export function useMusic() {
   const trackFileName = trackKey ? `${trackKey}.ogg` : null;
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audio = useRef(new Audio());
 
   useEffect(() => {
     if (audioRef.current) {
@@ -29,13 +30,13 @@ export function useMusic() {
       })
       .then((blob) => {
         const blobUrl = URL.createObjectURL(blob);
-        const audio = new Audio(blobUrl);
-        audio.loop = true;
-        audio.currentTime = 0;
-        audio.play().catch(console.error);
-        audioRef.current = audio;
+        audio.current.src = blobUrl;
+        audio.current.loop = true;
+        audio.current.currentTime = 0;
+        audio.current.play().catch(console.error);
+        audioRef.current = audio.current;
 
-        audio.addEventListener("playing", () => {
+        audio.current.addEventListener("playing", () => {
           URL.revokeObjectURL(blobUrl);
         });
       })
