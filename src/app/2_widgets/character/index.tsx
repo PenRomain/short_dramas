@@ -71,7 +71,7 @@ export default memo(function Character() {
     state.variables.Wardrobe.mainCh_Clothes,
   ]);
 
-  const urls = [bodyImg, suitImg, emoImg].filter((u): u is string =>
+  const urls = [emoImg, bodyImg, suitImg].filter((u): u is string =>
     Boolean(u),
   );
 

@@ -9,6 +9,7 @@ if (!CDN) {
 const nextConfig: NextConfig = {
   crossOrigin: "anonymous",
   poweredByHeader: false,
+  reactStrictMode: true,
   webpack(config) {
     config.stats = {
       all: false,

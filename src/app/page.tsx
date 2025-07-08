@@ -12,11 +12,14 @@ import { EmotionProvider } from "./4_shared/context/emotion-context";
 import Paywall from "./2_widgets/paywall";
 
 const mainStart = "0x010000000000C604";
-const beforePaywall = "0x010000000000C9C2";
-const beforeBlackOut = "0x010000000000CB35";
-const beforeBlackOut2 = "0x010000000000CAEB";
-const way = "0x010000000000CA07";
-const paywall = "0x010000000000CFED";
+const _beforePaywall = "0x010000000000C9C2";
+const _beforeBlackOut = "0x010000000000CB35";
+const _beforeBlackOut2 = "0x010000000000CAEB";
+const _way = "0x010000000000CA07";
+const _paywall = "0x010000000000CFED";
+const _firstTimeAlexina = "0x010000000000CAA6";
+const _firstTimePenelope = "0x010000000000CDF4";
+const _beforeNewBackground = "0x010000000000C9C2";
 
 export default function Home() {
   return (
@@ -24,11 +27,14 @@ export default function Home() {
       <GameProvider
         startId={
           mainStart
-          // beforePaywall
-          // beforeBlackOut
-          // beforeBlackOut2
-          // way
-          // paywall
+          // _beforeNewBackground
+          // _firstTimeAlexina
+          // _firstTimePenelope
+          // _beforePaywall
+          // _beforeBlackOut
+          // _beforeBlackOut2
+          // _way
+          // _paywall
         }
       >
         <BackgroundProvider>

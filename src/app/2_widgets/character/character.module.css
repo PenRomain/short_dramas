@@ -38,8 +38,10 @@
 
 .Penelope {
   right: -90px;
-  width: 107%;
-  height: 107%;
+  width: 103%;
+  height: 103%;
+  top: auto;
+  bottom: 0dvh;
 }
 
 .Arthur {
@@ -51,7 +53,8 @@
 
 .Alexina {
   right: -100px;
-  bottom: 0;
+  bottom: -2dvh;
+  top: auto;
 }
 
 .Bartender {
