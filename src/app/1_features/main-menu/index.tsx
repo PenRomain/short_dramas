@@ -1,8 +1,10 @@
 "use client";
 
 import { memo, ReactNode, useCallback, useRef, useState } from "react";
-import styles from "./main-menu.module.css";
+import cx from "clsx";
 import Button from "@/shared/uikit/button";
+import Image from "next/image";
+import styles from "./main-menu.module.css";
 
 export function isSSR() {
   return typeof (globalThis as { window: unknown }).window === "undefined";
@@ -26,14 +28,38 @@ export default memo(function MainMenu({ children }: MainMenuProps) {
   if (!started) {
     return (
       <div className={styles.wrap}>
-        <Button
-          onClick={() => {
-            unlockAudio();
-            setStarted(true);
-          }}
-        >
-          Start the Game
+        <Image src={"/forest.png"} fill alt="forest" />
+        <Button className={cx(styles.startButton, styles.fullWidth)}>
+          <Image src={"/banana.svg"} width={24} height={24} alt={"banana"} />
+          <div className={styles.divider} />
+          <span>100</span>
         </Button>
+        <div className={styles.amazonsWrap}>
+          <Image
+            className={styles.amazons}
+            src={"/amazons.png"}
+            fill
+            alt={"amazons"}
+          />
+          <Button
+            className={cx(styles.startButton, styles.fullWidth)}
+            onClick={() => {
+              unlockAudio();
+              setStarted(true);
+            }}
+          >
+            PLAY
+          </Button>
+        </div>
+
+        <div className={styles.amazonsLabelWrap}>
+          <Image
+            className={styles.amazonsLabel}
+            src={"/amazons_label.png"}
+            fill
+            alt={"amazons label"}
+          />
+        </div>
       </div>
     );
   }
