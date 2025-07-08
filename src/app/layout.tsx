@@ -8,6 +8,7 @@ import { OrientationGuard } from "./2_widgets/orientation-guard";
 import { Prefetch } from "./2_widgets/prefetch";
 import { InitUser } from "./3_entities/user/init-user";
 import CookiesProviderWrap from "./4_shared/cookies-provider-wrap";
+import UnlockAudio from "./3_entities/audio/unlock-audio";
 
 // const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
 
@@ -41,6 +42,7 @@ export default async function RootLayout({
       {/* <HeadLinks /> */}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
         <CookiesProviderWrap>
+          <UnlockAudio />
           <InitUser>
             <OrientationGuard>
               <StoreProvider>
