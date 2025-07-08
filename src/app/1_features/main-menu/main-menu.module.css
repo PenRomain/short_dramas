@@ -1,0 +1,13 @@
+.wrap {
+    position: fixed;
+    inset: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    padding: 12px;
+    gap: 12px;
+    flex-direction: column;
+}
