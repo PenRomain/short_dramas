@@ -1,6 +1,10 @@
 "use client";
 
-import { memo, useRef } from "react";
+import { memo, useEffect, useRef } from "react";
+
+export function isSSR() {
+  return typeof (globalThis as { window: unknown }).window === "undefined";
+}
 
 export default memo(function UnlockAudio() {
   const audioCtxRef = useRef<AudioContext | null>(null);
@@ -13,6 +17,11 @@ export default memo(function UnlockAudio() {
     }
   };
 
-  unlockAudio();
+  useEffect(() => {
+    if (!isSSR()) {
+      unlockAudio();
+    }
+  }, []);
+
   return <></>;
 });
