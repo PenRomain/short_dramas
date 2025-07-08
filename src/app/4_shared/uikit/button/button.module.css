@@ -13,7 +13,7 @@
   transition: background 0.2s ease;
   color: black;
 
-  &:hover {
+  @mixin hover {
     background: #dcdcdc;
   }
 }

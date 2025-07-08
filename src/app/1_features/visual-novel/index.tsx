@@ -31,10 +31,12 @@ const PRICE = 120;
 type PremiumButtonProps = {
   onSuccess: VoidFunction;
   label: string;
+  className?: string;
 };
 const PremiumButton = memo(function PremiumButton({
   onSuccess,
   label,
+  className,
 }: PremiumButtonProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -71,6 +73,7 @@ const PremiumButton = memo(function PremiumButton({
         styles.premiumButton,
         error && styles.error,
         loading && styles.loading,
+        className,
       )}
       disabled={loading}
     >
@@ -162,6 +165,7 @@ export default memo(function VisualNovel() {
             if (isPremium) {
               return (
                 <PremiumButton
+                  className={styles.black}
                   key={i}
                   label={label}
                   onSuccess={() => handleChoice(br.index)}
@@ -170,6 +174,7 @@ export default memo(function VisualNovel() {
             }
             return (
               <Button
+                className={styles.black}
                 key={i}
                 onClick={() => {
                   handleChoice(br.index);

@@ -75,3 +75,13 @@
   pointer-events: none;
   cursor: not-allowed;
 }
+
+.black {
+  background-color: black;
+  color: white;
+  border: 2px solid #585858;
+
+  @mixin hover {
+    background-color: #585858;
+  }
+}
