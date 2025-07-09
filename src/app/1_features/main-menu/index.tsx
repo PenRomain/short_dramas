@@ -5,6 +5,7 @@ import cx from "clsx";
 import Button from "@/shared/uikit/button";
 import Image from "next/image";
 import styles from "./main-menu.module.css";
+import Link from "next/link";
 
 export function isSSR() {
   return typeof (globalThis as { window: unknown }).window === "undefined";
@@ -28,7 +29,12 @@ export default memo(function MainMenu({ children }: MainMenuProps) {
   if (!started) {
     return (
       <div className={styles.wrap}>
-        <Image src={"/forest.png"} fill alt="forest" />
+        <Image
+          className={styles.forest}
+          src={"/forest.png"}
+          fill
+          alt="forest"
+        />
         <Button className={cx(styles.startButton, styles.fullWidth)}>
           <Image src={"/banana.svg"} width={24} height={24} alt={"banana"} />
           <div className={styles.divider} />
@@ -50,6 +56,15 @@ export default memo(function MainMenu({ children }: MainMenuProps) {
           >
             PLAY
           </Button>
+          <span className={styles.termsWrap}>
+            <Link href={"/privacy-policy"} target="_blank">
+              Privacy Policy
+            </Link>
+            {" & "}
+            <Link href={"/terms-of-conditions"} target="_blank">
+              Terms of Conditions
+            </Link>
+          </span>
         </div>
 
         <div className={styles.amazonsLabelWrap}>

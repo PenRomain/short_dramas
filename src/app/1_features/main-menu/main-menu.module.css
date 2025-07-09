@@ -20,13 +20,15 @@
   aspect-ratio: 312 / 438;
   padding: 8px 24px;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
   max-width: 300px;
   border-radius: 16px;
 }
 
-.amazons, .amazonsLabel {
+.amazons, .amazonsLabel, .forest {
   object-fit: cover;
 }
 
@@ -80,4 +82,15 @@
   width: 2px;
   height: 100%;
   background: #b0ca57;
+}
+
+.termsWrap {
+  z-index: 1;
+  font-size: 12px;
+  text-align: center;
+
+  & a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }

@@ -10,6 +10,8 @@ import Wardrobe from "./2_widgets/wardrobe";
 import InfoToast from "./2_widgets/info-toast";
 import { EmotionProvider } from "./4_shared/context/emotion-context";
 import Paywall from "./2_widgets/paywall";
+import MainMenu from "./1_features/main-menu";
+import { Prefetch } from "./2_widgets/prefetch";
 
 const mainStart = "0x010000000000C604";
 const _beforePaywall = "0x010000000000C9C2";
@@ -23,35 +25,39 @@ const _beforeNewBackground = "0x010000000000C9C2";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <GameProvider
-        startId={
-          mainStart
-          // _beforeNewBackground
-          // _firstTimeAlexina
-          // _firstTimePenelope
-          // _beforePaywall
-          // _beforeBlackOut
-          // _beforeBlackOut2
-          // _way
-          // _paywall
-        }
-      >
-        <BackgroundProvider>
-          <EmotionProvider>
-            <InfoToast />
-            <ContinueEvent />
-            <Character />
-            <Paywall />
-            <main className={styles.main}>
-              <Background />
-              <CutsceneOverlay />
-              <Wardrobe />
-              <VisualNovel />
-            </main>
-          </EmotionProvider>
-        </BackgroundProvider>
-      </GameProvider>
-    </div>
+    <MainMenu>
+      <Prefetch>
+        <div className={styles.page}>
+          <GameProvider
+            startId={
+              mainStart
+              // _beforeNewBackground
+              // _firstTimeAlexina
+              // _firstTimePenelope
+              // _beforePaywall
+              // _beforeBlackOut
+              // _beforeBlackOut2
+              // _way
+              // _paywall
+            }
+          >
+            <BackgroundProvider>
+              <EmotionProvider>
+                <InfoToast />
+                <ContinueEvent />
+                <Character />
+                <Paywall />
+                <main className={styles.main}>
+                  <Background />
+                  <CutsceneOverlay />
+                  <Wardrobe />
+                  <VisualNovel />
+                </main>
+              </EmotionProvider>
+            </BackgroundProvider>
+          </GameProvider>
+        </div>
+      </Prefetch>
+    </MainMenu>
   );
 }

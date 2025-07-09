@@ -65,11 +65,22 @@ export function Prefetch({ children }: { children: React.ReactNode }) {
 
   if (!done) {
     return (
-      <div className={styles.spinnerWrap}>
-        <Spinner />
-        <p className={styles.progress}>
-          {pct.toFixed(0)} % — {elapsed.toFixed(1)} s
-        </p>
+      <div className={styles.loader}>
+        <div className={styles.backgroundBlob} />
+        <Spinner className={styles.spinner} />
+        <div className={styles.content}>
+          <div className={styles.progressContainer}>
+            <div className={styles.progressBar}>
+              <div
+                className={styles.progressFill}
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+            <p className={styles.progressText}>
+              {pct} % • {elapsed.toFixed(1)} s
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
